@@ -28,7 +28,7 @@
     [X] Open Graph
     [X] Twitter Cards
     [ ] AMP
-	[ ] RSS-Feed
+	[X] RSS-Feed
     [ ] Facebook Instant Articles
 [X] Responsive-Ansichten
 	[X] Mobil
@@ -42,4 +42,4 @@
 	[ ] Bilder erst bei Bedarf laden
 	[ ] Prefetching
 [ ] Fav-Icons
-[ ] Git-Automatisierung
+[X] Git-Automatisierung

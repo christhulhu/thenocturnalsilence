@@ -18,7 +18,9 @@
 {{ end }}
 <!-- End of Open Graph -->
 <!-- Start of Twitter -->
-<meta property="twitter:card" content="{{ .Title }}{{ if eq .IsHome false }} - {{ .Site.Title }}{{ end }}">
+<meta property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@nocturnsilence">
+<meta name="twitter:creator" content="@nocturnsilence">
 {{ if .IsPage }}
 <meta property="twitter:description" content="{{if isset .Params "description" }}{{.Params.description}}{{else}}{{ .Summary }}{{end}}">
 {{ else }}
@@ -28,4 +30,3 @@
 {{if isset .Params "image" }}
 <meta property="twitter:image" content="{{ .Site.BaseURL }}images/{{ .Params.image }}">
 {{ end }}
-<!-- End of Twitter -->
