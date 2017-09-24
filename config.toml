@@ -6,11 +6,10 @@ removePathAccents=true
 preserveTaxonomyNames=true
 
 [outputs]
-  home = ["HTML", "AMP", "RSS"]
+home = ["HTML", "AMP", "RSS"]
 
 [outputFormats.RSS]
-suffix = "xml"
-path = "feed"
+path = "/feed"
 
 [author]
 displayName = "Christian G'hlen"
@@ -66,7 +65,7 @@ review = ":year/:month/:day/:slug"
 
 [[menu.social]]
 name = "rss"
-url =  "/feed/"
+url =  "/feed/index.xml"
 weight = 10
 [[menu.social]]
 name = "facebook"
