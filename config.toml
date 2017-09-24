@@ -28,6 +28,7 @@ label = "label"
 
 [permalinks]
 review = ":year/:month/:day/:slug"
+interview = ":year/:month/:day/:slug"
 
 [[menu.head]]
     name = "Reviews"
