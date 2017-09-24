@@ -15,7 +15,7 @@
 [X] Archiv Label
 [X] Archiv Reviews
 [X] Archiv Interviews
-[ ] schickere Pagination
+[X] schickere Pagination
 [X] Aussortieren von "Allgemein"-Beiträgen
 	[X] Allgemein-Template
 [X] Hauptmenü
