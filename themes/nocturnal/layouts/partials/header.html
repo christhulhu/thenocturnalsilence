@@ -1,0 +1,41 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="de"><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        {{ partial "header/seo.html" . }}
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png">
+		<link rel="icon" href="{{ .Site.BaseURL }}favicon.png">
+		<!--[if IE]>
+			<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
+		<![endif]-->
+		<meta name="msapplication-TileColor" content="#222">
+		<meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}win8-tile-icon.png">
+        <meta name="theme-color" content="#222">
+
+        <meta name="google-site-verification" content="fIXr57vHwOHOnO4M5FwEV8kf0ODEsd_so9RG341DCUE" />
+
+        {{ partial "header/opengraph.html" . }}
+
+        {{ .Hugo.Generator }}
+
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}css/nocturnal.css" />
+	</head>
+
+	<body class="body {{ if .IsHome }} home {{end}}
+    {{if isset .Params "image"}}
+        background-image" style="background-image: url({{ .Site.BaseURL }}images/{{.Params.image}});"
+    {{else}}
+        {{if isset .Site.Params "headerimage" }}home-background-image{{end}}" {{if isset .Site.Params "headerimage" }}style="background-image: url({{ .Site.BaseURL }}{{.Site.Params.headerimage}});"{{end}}
+    {{end}}
+    itemscope itemtype="http://schema.org/WebPage">

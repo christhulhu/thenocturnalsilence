@@ -1,0 +1,23 @@
+<div class="container">
+    {{ if isset .Site.Params "logo" }}
+    <div class="row justify-content-center">
+        <div class="col">
+            <a href="{{ .Site.BaseURL }}" class="custom-logo-link" rel="home" itemprop="url">
+                <img src="{{ .Site.BaseURL }}{{.Site.Params.logo}}" class="img-fluid mx-auto d-block" alt="{{ .Title }}"/>
+            </a>
+        </div>
+    </div>
+    {{ end }}
+    <!--div class="row">
+        <div class="col">
+        {{ with .Site.Params.description }} {{.}}
+        {{ else }}An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.{{end}}
+        </div>
+    </div-->
+    <div class="row">
+        <div class="col">
+            {{ partial "header/mainmenu.html" .}}
+        </div>
+    </div>
+</div><!-- container header -->
+<div class="container main">
