@@ -1,0 +1,78 @@
+languageCode = "de"
+title = "TheNocturnalSilence.de"
+baseURL = "https://thenocturnalsilence.de/"
+theme = "nocturnal"
+removePathAccents=true
+preserveTaxonomyNames=true
+
+[outputs]
+  home = ["HTML", "AMP", "RSS"]
+
+[outputFormats.RSS]
+suffix = "xml"
+path = "feed"
+
+[author]
+displayName = "Christian G'hlen"
+
+[params]
+description = "About gloomy and atmospheric music..."
+logo = "images/assets/thenocturnalsilence.de.png"
+headerimage = "images/assets/header.jpg"
+keywords = ["music", "reviews", "interviews", "death metal", "black metal", "doom", "webzine"]
+
+[taxonomies]
+category = "category"
+artist = "artist"
+genre = "genre"
+label = "label"
+
+[permalinks]
+review = ":year/:month/:day/:slug"
+
+[[menu.head]]
+    name = "Reviews"
+    url = "/category/reviews/"
+    weight = 10
+[[menu.head]]
+    name = "Interviews"
+    url = "/category/interviews"
+    weight = 20
+[[menu.head]]
+    name = "Browse"
+    url = "/browse"
+    weight = 30
+[[menu.head]]
+    name = "NecroSlaughter"
+    url = "https://necroslaughter.de"
+    weight = 40
+
+[[menu.footer]]
+    name = "Impress"
+    url = "/impress"
+    weight = 10
+[[menu.footer]]
+    name = "Disclaimer"
+    url = "/disclaimer"
+    weight = 20
+[[menu.footer]]
+    name = "Data privacy statement"
+    url = "/data-privacy-statement"
+    weight = 30
+[[menu.footer]]
+    name = "About"
+    url = "/about"
+    weight = 40
+
+[[menu.social]]
+name = "rss"
+url =  "/feed/"
+weight = 10
+[[menu.social]]
+name = "facebook"
+url = "https://facebook.com/thenocturnalsilence.de"
+weight = 20
+[[menu.social]]
+name = "twitter"
+url = "https://twitter.com/nocturnsilence"
+weight = 30
