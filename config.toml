@@ -7,9 +7,13 @@ preserveTaxonomyNames=true
 
 [outputs]
 home = ["HTML", "AMP", "RSS"]
+page = ["HTML", "AMP"]
+
 
 [outputFormats.RSS]
 path = "/feed"
+[outputFormats.AMP]
+path = "/amp"
 
 [author]
 displayName = "Christian G'hlen"
