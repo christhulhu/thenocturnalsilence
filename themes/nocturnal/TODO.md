@@ -35,11 +35,13 @@
 	[X] Tablet
 [X] Piwik
 [X] SEO
+[X] robots.txt
+[ ] humans.txt
 [X] Optimierungen https://www.tecmint.com/optimize-and-compress-jpeg-or-png-batch-images-linux-commandline/
 	[ ] Aufteilung background-image / cover-image / title-image
 	[X] Optimierung cover-image-Größe
 	[X] Optimierung background-image
 	[ ] Bilder erst bei Bedarf laden
 	[ ] Prefetching
-[ ] Fav-Icons
+[X] Fav-Icons
 [X] Git-Automatisierung

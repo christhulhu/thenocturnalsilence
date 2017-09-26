@@ -1,8 +1,8 @@
 <!doctype html>
-<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="de"><!--<![endif]-->
+{{ "<!--[if lt IE 7]><html lang=\"en-US\" class=\"no-js lt-ie9 lt-ie8 lt-ie7\"><![endif]-->"  | safeHTML }}
+{{ "<!--[if (IE 8)&!(IEMobile)]><html lang=\"en-US\" class=\"no-js lt-ie9\"><![endif]-->"  | safeHTML }}
+{{ "<!--[if (IE 7)&!(IEMobile)]><html lang=\"en-US\" class=\"no-js lt-ie9 lt-ie8\"><![endif]-->"  | safeHTML }}
+{{ "<!--[if gt IE 8]><!-->" | safeHTML }}<html lang="de">{{"<!--<![endif]-->"  | safeHTML }}
     <head>
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -14,13 +14,14 @@
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-		<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png">
-		<link rel="icon" href="{{ .Site.BaseURL }}favicon.png">
-		<!--[if IE]>
-			<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
-		<![endif]-->
+		<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/assets/apple-touch-icon.png">
+		<link rel="icon" href="{{ .Site.BaseURL }}images/assets/favicon.png">
+		{{"<!--[if IE] >"  | safeHTML }}
+		{{"	<link rel=\"shortcut icon\" href=\""| safeHTML }}{{ .Site.BaseURL }}{{"favicon.ico\">"  | safeHTML }}
+		{{"<![endif]-->"  | safeHTML }}
 		<meta name="msapplication-TileColor" content="#222">
-		<meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}win8-tile-icon.png">
+        <meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}images/assets/tile-large.png">
+        <meta name="msapplication-config" content="{{ .Site.BaseURL }}ieconfig.xml" />
         <meta name="theme-color" content="#222">
 
         <meta name="google-site-verification" content="fIXr57vHwOHOnO4M5FwEV8kf0ODEsd_so9RG341DCUE" />
