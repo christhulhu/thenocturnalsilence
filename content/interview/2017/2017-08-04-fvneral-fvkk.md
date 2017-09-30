@@ -107,4 +107,4 @@ I sometimes enjoy such a mixture myself too. But he will not sing on the next Op
 
 The dirtier your bible, the cleaner your soul!!!
 
-{{<img-center src="/images/interviews/fvneral-fvkk/FF_Band2.jpg" >}}
+{{<img-center src="/images/interviews/fvneral-fvkk/FF_Band2.jpg" alt="Fvneral Fvkk - Band">}}
