@@ -3,7 +3,7 @@
         <article>
             <div class="text-center">
                 <a href="{{ .Permalink }}">
-                    {{ .Title }}
+                    <h3>{{ .Title }}</h3>
                     {{if isset .Params "image" }}
                       <div class="post-image">
                               <img src="{{ .Site.BaseURL }}images/{{.Params.image}}"
