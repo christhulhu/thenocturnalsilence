@@ -13,10 +13,6 @@
         </div>
         </footer>
         </div><!-- main container -->
-        {{ with .RSSLink }}
-        <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
-        <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
-        {{ end }}
 
         {{ range .Site.Params.custom_css }}
         <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
