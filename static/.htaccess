@@ -6,7 +6,7 @@ ErrorDocument 404 /404.html
 
   Options +SymLinksIfOwnerMatch
   RewriteEngine on
-  RewriteBase /
+  #RewriteBase /
 
   RewriteCond %{REQUEST_URI} ^\/2017\/08\/04\/fvneral\-fvkk\/$
   RewriteRule ^.*$ /interviews/2017/fvneral-fvkk/ [R=301,L]

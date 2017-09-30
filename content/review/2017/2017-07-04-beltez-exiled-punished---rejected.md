@@ -1,7 +1,7 @@
 +++
 title = "Beltez - Exiled, Punished​.​.​. ​Rejected"
 date = "2017-07-04 09:48:38"
-slug ="beltez-exiled-punished%e2%80%8b-%e2%80%8b-%e2%80%8b-%e2%80%8brejected"
+slug ="beltez-exiled-punished%E2%80%8B-%E2%80%8B-%E2%80%8B-%E2%80%8Brejected/"
 artist = ["Beltez"]
 category = ["Reviews"]
 label = ["Bret Hart Records"]
