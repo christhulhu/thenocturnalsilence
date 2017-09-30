@@ -5,7 +5,6 @@
 {{ "<!--[if gt IE 8]><!-->" | safeHTML }}<html lang="de">{{"<!--<![endif]-->"  | safeHTML }}
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
         {{ partial "header/seo.html" . }}
 
@@ -34,7 +33,7 @@
         <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
         <link href="{{ . }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
         {{ end }}
-        
+
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/nocturnal.css" />
 	</head>
 
