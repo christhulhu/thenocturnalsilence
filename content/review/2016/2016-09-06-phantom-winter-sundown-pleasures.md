@@ -14,7 +14,7 @@ links = [
     "[www.goldenantenna.com/](http://www.goldenantenna.com/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 340px;' src='https://bandcamp.com/EmbeddedPlayer/album=2682540416/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://goldenantennarecords.bandcamp.com/album/sundown-pleasures'>Sundown Pleasures by Phantom Winter</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 340px;' src='https://bandcamp.com/EmbeddedPlayer/album=2682540416/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/600.jpg"
 +++

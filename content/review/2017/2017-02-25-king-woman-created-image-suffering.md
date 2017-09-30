@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/KNGWMN/](https://www.facebook.com/KNGWMN/)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=1762232894/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://kingwoman.bandcamp.com/album/created-in-the-image-of-suffering'>Created in the Image of Suffering by King Woman</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=1762232894/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/King-Woman-Created-In-The-Image-Of-Suffering.jpg"
 +++

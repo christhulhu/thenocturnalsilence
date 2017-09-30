@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/zhrineofficial](https://www.facebook.com/zhrineofficial)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=2624556299/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://zhrine.bandcamp.com/album/unortheta'>Unortheta by ZHRINE</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=2624556299/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Zhrine-Unortheta.jpg"
 +++

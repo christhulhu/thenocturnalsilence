@@ -13,7 +13,7 @@ links = [
     "[www.facebook.com/departe](https://www.facebook.com/departe)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=3950608670/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://departenoise.bandcamp.com/album/failure-subside'>Failure, Subside by Départe</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=3950608670/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Departe-Failure-Subside.jpg"
 +++

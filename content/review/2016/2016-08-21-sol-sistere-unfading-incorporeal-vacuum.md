@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/solsistereofficial/](https://www.facebook.com/solsistereofficial/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=2844254415/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://solsistere.bandcamp.com/album/unfading-incorporeal-vacuum'>Unfading Incorporeal Vacuum by Sol Sistere</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=2844254415/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/Sol-Sistere-Unfading-Incorporeal-Vacuum.jpg"
 +++

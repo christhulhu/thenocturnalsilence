@@ -13,7 +13,7 @@ links = [
     "[www.facebook.com/allthosewhowanderaredool/](https://www.facebook.com/allthosewhowanderaredool/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=333540023/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless>Here Now, There Then by Dool</iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=333540023/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Dool-Here-Now-There-Then.jpg"
 +++

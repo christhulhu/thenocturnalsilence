@@ -14,7 +14,7 @@ lnks = [
     "[vendettarecords.wordpress.com/](https://vendettarecords.wordpress.com/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=40990157/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://ultha.bandcamp.com/album/dismal-ruins-ep'>Dismal Ruins (EP) by ULTHA</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=40990157/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/Ultha-Dismal-Ruins.jpg"
 +++

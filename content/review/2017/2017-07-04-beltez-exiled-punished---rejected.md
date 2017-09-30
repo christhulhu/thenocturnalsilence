@@ -1,7 +1,7 @@
 +++
 title = "Beltez - Exiled, Punished​.​.​. ​Rejected"
 date = "2017-07-04 09:48:38"
-slug ="beltez-exiled-punished%e2%80%8b-%e2%80%8b-%e2%80%8b-%e2%80%8brejected"
+slug ="beltez-exiled-punished%E2%80%8B-%E2%80%8B-%E2%80%8B-%E2%80%8Brejected/"
 artist = ["Beltez"]
 category = ["Reviews"]
 label = ["Bret Hart Records"]
@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/Beltez/](https://www.facebook.com/Beltez/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 340px;' src='https://bandcamp.com/EmbeddedPlayer/album=765219057/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://beltez.bandcamp.com/album/exiled-punished-rejected-2'>Exiled, Punished...Rejected by Beltez</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 340px;' src='https://bandcamp.com/EmbeddedPlayer/album=765219057/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Beltez-Exiled-Punished...-Rejected.jpg"
 +++

@@ -13,7 +13,7 @@ links = [
     "[thegreatoldonesband.com/](http://thegreatoldonesband.com/)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=868468947/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://thegreatoldones.bandcamp.com/album/eod-a-tale-of-dark-legacy'>EOD: A Tale of Dark Legacy by The Great Old Ones</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=868468947/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/The-Great-Old-Ones-EOD-A-Tale-Of-Dark-Legacy.jpg"
 +++

@@ -13,7 +13,7 @@ links = [
     "[www.fvnerals.com/](http://www.fvnerals.com/)",
 ]
 
-player = "<iframe style='border: 0; width: 350px; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=3868173397/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://fvnerals.bandcamp.com/album/wounds'>Wounds by FVNERALS</a></iframe>"
+player = "<iframe style='border: 0; width: 350px; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=3868173397/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/Fvnerals-Wounds.jpg"
 +++

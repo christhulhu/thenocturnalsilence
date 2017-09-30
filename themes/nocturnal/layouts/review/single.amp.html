@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ⚡>
   <head>
     <meta charset="utf-8">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
@@ -12,14 +12,74 @@
     <noscript>
       <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
     </noscript>
+    <style amp-custom>
+      amp-img {
+        margin: 0.5em;
+      }
+      body {
+        max-width: 900px;
+        color: #eee;
+        background-color: #131313;
+      }
+      a {
+        color: #41587f
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+      iframe {
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <h1>{{ .Title }}</h1>
     {{if isset .Params "image" }}
         <amp-img src="{{ .Site.BaseURL }}images/{{.Params.image}}" width="900" height="900" layout="responsive"></amp-img>
     {{end}}
+    <h1>{{ .Title }}</h1>
 
     {{ .Content }}
 
+    <ul class="review-meta list-unstyled">
+        {{if isset .Params "genre" }}
+        <li><i class="fa fa-folder-open">
+            </i>&nbsp;<strong>Genre{{ if gt (len .Params.genre) 1 }}s{{ end }}</strong>:
+          {{ range $index, $genre := .Params.genre }}
+          {{ if gt $index 0 }}/ {{ end }}<a href="{{ "/genre/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+      </li>
+    {{end}}
+    {{if isset .Params "artist" }}
+        <li><i class="fa fa-folder-open"></i>&nbsp;<strong>Artist{{ if gt (len .Params.artist) 1 }}s{{ end }}</strong>:
+          {{ range $index, $artist := .Params.artist }}
+            {{ if gt $index 0 }}, {{ end }}<a href="{{ "/artist/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+        </li>
+    {{end}}
+    {{if isset .Params "label" }}
+      <li><i class="fa fa-folder-open">
+          </i>&nbsp;<strong>Label{{ if gt (len .Params.label) 1 }}s{{ end }}</strong>:
+          {{ range $index, $label := .Params.label }}
+            {{ if gt $index 0 }}, {{ end }}<a href="{{ "/label/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+          {{ end }}
+      </li>
+    {{end}}
+    {{if isset .Params "category" }}
+        <li><i class="fa fa-folder-open"></i>&nbsp;<strong>Category</strong>:
+            {{ range $index, $category := .Params.category }}
+              {{ if gt $index 0 }}, {{ end }}<a href="{{ "/category/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+        </li>
+    {{ end }}
+    <li>
+    <span class="by entry-author author" >
+      <i class="fa fa-user"></i> Written by {{ .Site.Author.displayname }} on
+      <time class="updated entry-time" datetime="<?php echo get_the_time('Y-m-d') ?>" itemprop="datePublished">
+            <i class="fa fa-calendar"></i> {{ dateFormat "2006-01-02" .Date }}
+      </time>
+    </span>
+    </li>
+    </ul>
   </body>
 </html>

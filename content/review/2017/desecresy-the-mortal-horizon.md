@@ -13,7 +13,7 @@ links = [
 "[desecresy.bandcamp.com](https://desecresy.bandcamp.com)"
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=2446297399/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless><a href="http://xtreemmusic.bandcamp.com/album/the-mortal-horizon-2">The Mortal Horizon by DESECRESY</a></iframe>'
+player = '<iframe style="border: 0; width: 100%; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=2446297399/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" ></iframe>'
 
 image = "cover/2017/Desecresy-The-Mortal-Horizon.jpg"
 

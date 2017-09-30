@@ -12,7 +12,7 @@ links = [
     "[engulfed.bandcamp.com/album/engulfed-in-obscurity](https://engulfed.bandcamp.com/album/engulfed-in-obscurity)  ",
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=3871866145/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless><a href="http://bloodharvestrecords.bandcamp.com/album/engulfed-in-obscurity-12lp">Engulfed in Obscurity 12&quot;LP by ENGULFED</a></iframe>'
+player = '<iframe style="border: 0; width: 100%; height: 439px;" src="https://bandcamp.com/EmbeddedPlayer/album=3871866145/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" ></iframe>'
 
 image = "cover/2017/Engulfed-Engulfed-In-Obscurity.jpg"
 +++

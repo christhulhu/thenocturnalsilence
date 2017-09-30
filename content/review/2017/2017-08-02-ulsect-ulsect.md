@@ -13,7 +13,7 @@ links = [
     "[www.facebook.com/ulsect/](https://www.facebook.com/ulsect/)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=215710015/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://ulsect.bandcamp.com/album/ulsect'>Ulsect by Ulsect</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=215710015/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Ulsect-Ulsect.jpg"
 +++

@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/VOIDOMNIA](https://www.facebook.com/VOIDOMNIA)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 307px;' src='https://bandcamp.com/EmbeddedPlayer/album=1706926542/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://voidomnia.bandcamp.com/album/dying-light'>Dying Light by Void Omnia</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 307px;' src='https://bandcamp.com/EmbeddedPlayer/album=1706926542/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Void-Omnia-Dying-Light.jpg"
 +++

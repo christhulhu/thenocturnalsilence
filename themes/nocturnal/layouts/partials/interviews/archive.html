@@ -1,9 +1,9 @@
 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
     <div class="home-article">
-        <article role="article">
+        <article>
             <div class="text-center">
                 <a href="{{ .Permalink }}">
-                    {{ .Title }}
+                    <h3>{{ .Title }}</h3>
                     {{if isset .Params "previewimage" }}
                       <div class="post-image">
                               <img src="{{ .Site.BaseURL }}images/{{.Params.previewimage}}"
@@ -16,7 +16,7 @@
                 </a>
             </div>
             <footer class="archive-article-footer text-center">
-                <time class="post-list">Published on {{ .Date.Format "2006-01-02" }}</time>
+                <time class="post-list" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">Published on {{ .Date.Format "2006-01-02" }}</time>
             </footer>
         </article>
     </div>

@@ -13,7 +13,7 @@ links = [
     "[www.ulcerate-official.com/](http://www.ulcerate-official.com/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=3550011887/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://ulcerate.bandcamp.com/album/shrines-of-paralysis'>Shrines of Paralysis by Ulcerate</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=3550011887/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Ulcerate-Shrines-Of-Paralysis.jpg"
 +++

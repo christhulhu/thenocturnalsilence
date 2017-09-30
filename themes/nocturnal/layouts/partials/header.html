@@ -5,7 +5,6 @@
 {{ "<!--[if gt IE 8]><!-->" | safeHTML }}<html lang="de">{{"<!--<![endif]-->"  | safeHTML }}
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
         {{ partial "header/seo.html" . }}
 
@@ -30,9 +29,15 @@
 
         {{ .Hugo.Generator }}
 
+<<<<<<< HEAD
         {{ range .AlternativeOutputFormats -}}
         <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
         {{ end -}}
+=======
+        {{ with .RSSLink }}
+        <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+        {{ end }}
+>>>>>>> master
 
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/nocturnal.css" />
 	</head>

@@ -11,7 +11,7 @@ links = [
     "[www.facebook.com/iustalionis/](https://www.facebook.com/iustalionis/)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=3050356209/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://iustalionis.bandcamp.com/album/saligia'>Saligia by Ius Talionis</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=3050356209/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Ius-Talionis-Sagilia.jpg"
 +++

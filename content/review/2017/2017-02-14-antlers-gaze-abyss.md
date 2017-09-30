@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/antlersband](https://www.facebook.com/antlersband) ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 340px;' src='https://bandcamp.com/EmbeddedPlayer/album=886794440/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://ntlrs.bandcamp.com/album/a-gaze-into-the-abyss'>A Gaze Into The Abyss by Antlers</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 340px;' src='https://bandcamp.com/EmbeddedPlayer/album=886794440/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Antlers-A-Gaze-Into-The-Abyss.jpg"
 +++

@@ -12,7 +12,7 @@ links = [
     "[morrowpunx.bandcamp.com/](https://morrowpunx.bandcamp.com/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=2816515134/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://morrowpunx.bandcamp.com/album/covenant-of-teeth'>Covenant Of Teeth by Morrow</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=2816515134/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Morrow-Covenant-Of-Theeth.jpg"
 +++

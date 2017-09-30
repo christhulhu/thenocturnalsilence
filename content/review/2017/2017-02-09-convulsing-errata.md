@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/convulsing/](https://www.facebook.com/convulsing/)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=1553009665/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://convulsing.bandcamp.com/album/errata'>Errata by Convulsing</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=1553009665/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Convulsing-Errata.jpg"
 +++
