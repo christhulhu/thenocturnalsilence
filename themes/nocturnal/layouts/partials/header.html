@@ -29,15 +29,13 @@
 
         {{ .Hugo.Generator }}
 
-<<<<<<< HEAD
+
         {{ range .AlternativeOutputFormats -}}
         <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
         {{ end -}}
-=======
         {{ with .RSSLink }}
         <link href="{{ . }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
         {{ end }}
->>>>>>> master
 
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/nocturnal.css" />
 	</head>
