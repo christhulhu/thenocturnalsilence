@@ -9,6 +9,6 @@
 </span>
 {{end}}
 
-<time class="updated entry-time" datetime="<?php echo get_the_time('Y-m-d') ?>" itemprop="datePublished">
+<time class="updated entry-time" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
       <i class="fa fa-calendar"></i> Published on {{ dateFormat "2006-01-02" .Date }}
 </time>
