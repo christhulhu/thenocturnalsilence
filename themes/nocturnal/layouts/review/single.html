@@ -13,29 +13,27 @@
       </div>
   </header>
 
-  <section class="entry" itemprop="articleBody">
-      <div class="container">
-          <div class="row">
-            <div class="entry-content {{if isset .Params "image" }}col-xs-12 col-sm-12 col-md-8 col-lg-8{{else}}col-xs-12 col-sm-12 col-md-12 col-lg-12{{end}}">
-              {{ .Content }}
-            </div>
-            {{if isset .Params "image" }}
-            <div class="entry-content-meta col-xs-12 col-sm-12 col-md-4 col-lg-4">
-              <div class="post-image">
-                  <a href="{{ .Site.BaseURL }}images/{{.Params.image}}" class="vanillabox">
-                      <img src="{{ .Site.BaseURL }}images/{{.Params.image}}"
-                      alt="{{ .Title }}"
-                      class="img-fluid"/>
-                  </a>
-              </div>
-              {{if isset .Params "player" }}
-              <div class="webzine_embedded_bandcamp">{{ .Params.player | safeHTML }}</div>
-              {{end}}
-            </div>
-            {{end}}
+  <div class="container">
+      <div class="row">
+        <div class="entry-content {{if isset .Params "image" }}col-xs-12 col-sm-12 col-md-8 col-lg-8{{else}}col-xs-12 col-sm-12 col-md-12 col-lg-12{{end}}">
+          {{ .Content }}
+        </div>
+        {{if isset .Params "image" }}
+        <div class="entry-content-meta col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="post-image">
+              <a href="{{ .Site.BaseURL }}images/{{.Params.image}}" class="vanillabox">
+                  <img src="{{ .Site.BaseURL }}images/{{.Params.image}}"
+                  alt="{{ .Title }}"
+                  class="img-fluid"/>
+              </a>
           </div>
+          {{if isset .Params "player" }}
+          <div class="webzine_embedded_bandcamp">{{ .Params.player | safeHTML }}</div>
+          {{end}}
+        </div>
+        {{end}}
       </div>
-  </section>
+  </div>
 
   <footer class="article-footer">
       <div class="container">
