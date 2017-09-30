@@ -32,7 +32,7 @@
 <li>
 <span class="by entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">
   <i class="fa fa-user"></i> Written by {{ .Site.Author.displayname }} on
-  <time class="updated entry-time" datetime="<?php echo get_the_time('Y-m-d') ?>" itemprop="datePublished">
+  <time class="updated entry-time" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
         <i class="fa fa-calendar"></i> {{ dateFormat "2006-01-02" .Date }}
   </time>
 </span>

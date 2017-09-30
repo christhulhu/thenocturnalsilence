@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "header/head.html" . }}
-<main id="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-  <article id="content" class="cf" role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+<main id="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+  <article id="content" class="cf" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
 
   <header class="article-header entry-header">
       <div class="container">
@@ -13,7 +13,7 @@
       </div>
   </header>
 
-  <section class="entry" temprop="articleBody">
+  <section class="entry" itemprop="articleBody">
       <div class="container">
           <div class="row">
             <div class="entry-content {{if isset .Params "image" }}col-xs-12 col-sm-12 col-md-8 col-lg-8{{else}}col-xs-12 col-sm-12 col-md-12 col-lg-12{{end}}">
@@ -41,9 +41,9 @@
       <div class="container">
           <div class="row">
               <div class="col">
-                <p class="byline review-meta-details vcard" >
+                <div class="byline review-meta-details vcard" >
                   {{ partial "reviews/review-meta.html" . }}
-                </p>
+                </div>
 
                 {{ if isset $.Params "links"}}
                   <ul class="review-meta-links list-unstyled">
@@ -52,8 +52,6 @@
                     {{end}}
                   </ul>
                 {{end}}
-
-
               </div>
           </div>
       </div>
