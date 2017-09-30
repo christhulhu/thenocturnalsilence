@@ -6,10 +6,16 @@ ErrorDocument 404 /404.html
 
   Options +SymLinksIfOwnerMatch
   RewriteEngine on
+  RewriteBase /
+
   RewriteCond %{REQUEST_URI} ^\/2017\/08\/04\/fvneral\-fvkk\/$
   RewriteRule ^.*$ interviews/2017/fvneral-fvkk/ [R=301,L]
 
-  RewriteRule ^([0-9]{4})/[0-9]{2}/[0-9]{2}/(.+)$ /reviews/$1/$2 [R=301,L]
+  RewriteRule ^([0-9]{4})/[0-9]{2}/[0-9]{2}/(.+)$ reviews/$1/$2 [R=301,L]
+
+  # When REQUEST_URI does not have a trailing slash
+  RewriteCond %{REQUEST_URI} !(.*)/$
+  RewriteRule ^(.+)$ $1/ [R=301,L]
 </IfModule>
 
 # mod_deflate (gzip) aktivieren
