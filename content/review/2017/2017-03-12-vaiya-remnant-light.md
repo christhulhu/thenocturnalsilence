@@ -11,7 +11,7 @@ links = [
     "[vaiya.bandcamp.com/](https://vaiya.bandcamp.com/)"
 ]
 
-player = "<iframe style='border: 0; width: 400px; height: 241px;' src='https://bandcamp.com/EmbeddedPlayer/album=701957853/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://vaiya.bandcamp.com/album/remnant-light'>Remnant Light by Vaiya</a></iframe>"
+player = "<iframe style='border: 0; width: 400px; height: 241px;' src='https://bandcamp.com/EmbeddedPlayer/album=701957853/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Vaiya-Remnant-Light.jpg"
 +++

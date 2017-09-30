@@ -12,7 +12,7 @@ links = [
     "[numenorean.bandcamp.com/](https://numenorean.bandcamp.com/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 307px;' src='https://bandcamp.com/EmbeddedPlayer/album=849142936/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://numenorean.bandcamp.com/album/home'>Home by Numenorean</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 307px;' src='https://bandcamp.com/EmbeddedPlayer/album=849142936/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/Numenorean-Home.jpg"
 +++

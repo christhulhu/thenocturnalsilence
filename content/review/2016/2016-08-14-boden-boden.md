@@ -7,7 +7,7 @@ category = ["Reviews"]
 label = ["Holy Goat Records", "Meta Matter Records", "Revolvermann Records"]
 genre = ["Post-Black Metal", "Post-Rock"]
 
-player = "<iframe style='border: 0; width: 100%; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=3748082070/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://bodenpunx.bandcamp.com/album/boden'>Boden by BODEN</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=3748082070/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 links = [
 "[www.facebook.com/bodennoise/](https://www.facebook.com/bodennoise/)",

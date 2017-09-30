@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/lantern666/](https://www.facebook.com/lantern666/)",
 ]
 
-player = "<iframe style='border: 0; width: 400px; height: 439px;' src='https://bandcamp.com/EmbeddedPlayer/album=1291308815/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://darkdescentrecords.bandcamp.com/album/ii-morphosis'>II : Morphosis by Lantern</a></iframe>"
+player = "<iframe style='border: 0; width: 400px; height: 439px;' src='https://bandcamp.com/EmbeddedPlayer/album=1291308815/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Lantern-Morphosis.jpg"
 +++

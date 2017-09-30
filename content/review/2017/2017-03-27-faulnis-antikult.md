@@ -13,7 +13,7 @@ links = [
     "[www.sickblackart.de/](http://www.sickblackart.de/) ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 439px;' src='https://bandcamp.com/EmbeddedPlayer/album=3983859664/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://faeulnis-germany.bandcamp.com/album/antikult'>Antikult by Fäulnis</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 439px;' src='https://bandcamp.com/EmbeddedPlayer/album=3983859664/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Fäulnis-Antikult.jpg"
 +++

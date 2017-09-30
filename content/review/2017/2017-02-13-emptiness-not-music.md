@@ -13,7 +13,7 @@ links = [
     "[www.blackoutstudio.be/emptiness/index.html](http://www.blackoutstudio.be/emptiness/index.html) ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=2952256573/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://emptiness.bandcamp.com/album/not-for-music'>Not For Music by Emptiness</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=2952256573/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Emptiness-Not-For-Music.jpg"
 +++

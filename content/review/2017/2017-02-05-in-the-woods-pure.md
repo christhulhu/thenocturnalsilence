@@ -11,7 +11,7 @@ links = [
 "[www.facebook.com/inthewoodsomnio/](https://www.facebook.com/inthewoodsomnio/)  "
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=2894499501/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://dmp666.bandcamp.com/album/pure'>Pure by IN THE WOODS...</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=2894499501/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/In-The-Woods-Pure.jpg"
 +++

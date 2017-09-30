@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/templeofultha](https://www.facebook.com/templeofultha) ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 307px;' src='https://bandcamp.com/EmbeddedPlayer/album=1203385701/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://ultha.bandcamp.com/album/converging-sins'>Converging Sins by ULTHA</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 307px;' src='https://bandcamp.com/EmbeddedPlayer/album=1203385701/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Ultha-Converging-Sins.jpg"
 +++

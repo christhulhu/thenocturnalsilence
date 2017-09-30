@@ -7,7 +7,7 @@ category = ["Reviews"]
 label = ["Avantgarde Music"]
 genre = ["Atmospheric Black Metal", "Black Metal", "Post-Black Metal"]
 
-player = "<iframe style='border: 0; width: 350px; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=1372695343/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://ashbringermusic.bandcamp.com/album/y-gen'>Yūgen by Ashbringer</a></iframe>"
+player = "<iframe style='border: 0; width: 350px; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=1372695343/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 links = [
     "[www.facebook.com/ashbringermusic/](https://www.facebook.com/ashbringermusic/)",

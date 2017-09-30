@@ -11,7 +11,7 @@ links = [
     "[sunworship.bandcamp.com/](https://sunworship.bandcamp.com/)",
     "[www.facebook.com/sunworshipband](https://www.facebook.com/sunworshipband)",
 ]
-player = "<iframe style='border: 0; width: 100%; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=1581031493/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://sunworship.bandcamp.com/album/pale-dawn'>Pale Dawn by Sun Worship</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=1581031493/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/Sun-Worship-Pale-Dawn.jpg"
 +++

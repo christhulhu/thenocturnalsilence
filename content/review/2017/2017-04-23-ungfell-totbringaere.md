@@ -12,7 +12,7 @@ links = [
     "[ungfell.bandcamp.com/](https://ungfell.bandcamp.com/)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=334953818/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://ungfell.bandcamp.com/album/t-tbring-re'>Tôtbringære by Ungfell</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=334953818/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Ungfell-Totbringaere.jpg"
 +++

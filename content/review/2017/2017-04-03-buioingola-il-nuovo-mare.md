@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/buioingola/](https://www.facebook.com/buioingola/)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=3655496022/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://buioingola.bandcamp.com/album/il-nuovo-mare'>Il nuovo mare by buioingola</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=3655496022/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Buioingola-Il-Nuovo-Mare.jpg"
 +++

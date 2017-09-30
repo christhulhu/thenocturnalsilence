@@ -11,7 +11,7 @@ links = [
     "[gevurah.bandcamp.com/](https://gevurah.bandcamp.com/)"
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=2691234970/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://profoundlorerecords.bandcamp.com/album/hallelujah'>Hallelujah! by GEVURAH</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=2691234970/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Gevurah-Halleluja.jpg"
 +++

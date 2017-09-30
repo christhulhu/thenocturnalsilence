@@ -13,7 +13,7 @@ links = [
     "[cold-dimensions.de/](http://cold-dimensions.de/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=3756516390/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://colddimensions.bandcamp.com/album/autumn'>Autumn by COLDWORLD</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=3756516390/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/Coldworld-_-Autumn.jpg"
 

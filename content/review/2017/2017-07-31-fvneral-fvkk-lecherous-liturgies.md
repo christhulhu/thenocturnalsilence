@@ -21,7 +21,7 @@ links = [
     "[www.facebook.com/solitudeprod](https://www.facebook.com/solitudeprod)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 241px;' src='https://bandcamp.com/EmbeddedPlayer/album=3665768764/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://fvneralfvkk.bandcamp.com/album/the-lecherous-liturgies-ep'>The Lecherous Liturgies (EP) by Fvneral Fvkk</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 241px;' src='https://bandcamp.com/EmbeddedPlayer/album=3665768764/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Fvneral-Fvkk-Lecherous-Liturgies.jpg"
 +++

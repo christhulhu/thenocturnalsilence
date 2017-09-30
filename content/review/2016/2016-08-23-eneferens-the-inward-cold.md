@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/eneferens](https://www.facebook.com/eneferens)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 241px;' src='https://bandcamp.com/EmbeddedPlayer/album=4206693062/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://eneferens.bandcamp.com/album/the-inward-cold'>The Inward Cold by Eneferens</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 241px;' src='https://bandcamp.com/EmbeddedPlayer/album=4206693062/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/Eneferens-–-The-Inward-Cold.jpg"
 +++

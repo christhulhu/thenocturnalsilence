@@ -12,7 +12,7 @@ links = [
     "[projectosinistro.bandcamp.com/](https://projectosinistro.bandcamp.com/)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=2650049396/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://projectosinistro.bandcamp.com/album/semente'>Semente by Sinistro</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=2650049396/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Sinistro-Semente.jpg"
 +++

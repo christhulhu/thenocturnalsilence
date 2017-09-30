@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/woeunholy](https://www.facebook.com/woeunholy)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=1793022459/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://woeunholy.bandcamp.com/album/hope-attrition'>Hope Attrition by Woe</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 373px;' src='https://bandcamp.com/EmbeddedPlayer/album=1793022459/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Woe-Hope-Attrition.jpg"
 +++

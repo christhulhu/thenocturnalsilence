@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/gloomsleeper](https://www.facebook.com/gloomsleeper)  ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=2910957022/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://gloomsleeper.bandcamp.com/album/a-void'>A VOID by GLOOM SLEEPER</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=2910957022/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Gloom-Sleeper-A-Void.jpg"
 +++

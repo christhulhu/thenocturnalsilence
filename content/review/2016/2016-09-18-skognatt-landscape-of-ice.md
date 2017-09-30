@@ -12,7 +12,7 @@ links = [
     "[www.facebook.com/Skognatt/](https://www.facebook.com/Skognatt/)",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=3688890795/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://skognatt.bandcamp.com/album/landscape-of-ice'>Landscape of Ice by Skognatt</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=3688890795/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2016/Skognatt-Landscape-Of-Ice.jpg"
 +++

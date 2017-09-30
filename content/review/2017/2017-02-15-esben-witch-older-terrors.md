@@ -13,7 +13,7 @@ links = [
     "[esbenandthewitch.co.uk/](http://esbenandthewitch.co.uk/) ",
 ]
 
-player = "<iframe style='border: 0; width: 100%; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=3930154458/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://esbenandthewitch.bandcamp.com/album/older-terrors'>Older Terrors by Esben and the Witch</a></iframe>"
+player = "<iframe style='border: 0; width: 100%; height: 274px;' src='https://bandcamp.com/EmbeddedPlayer/album=3930154458/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Esben-And-The-Witch-Older-Terrors.jpg"
 +++
