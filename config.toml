@@ -13,6 +13,8 @@ path = "/feed"
 
 [author]
 displayName = "Christian G'hlen"
+name = "Christian G'hlen"
+email = "void@thenocturnalsilence.de"
 
 [params]
 description = "About gloomy and atmospheric music..."
