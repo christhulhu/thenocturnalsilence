@@ -31,7 +31,7 @@
 {{ end }}
 <li>
 <div class="by entry-author author">
-  <i class="fa fa-user"></i> Written by <a href="mailto:{{.Site.Author.email}}"{{ .Site.Author.name }}</a> on
+  <i class="fa fa-user"></i> Written by <a href="mailto:{{.Site.Author.email}}">{{ .Site.Author.name }}</a> on
   <time class="updated entry-time" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
         <i class="fa fa-calendar"></i> {{ dateFormat "2006-01-02" .Date }}
   </time>
