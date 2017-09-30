@@ -41,7 +41,7 @@ Well, the pseudonyms do not hide much, as profane paparazzi like you have alread
 
 Yes there were, and we totally do not understand that. I think that Ghost sucks ass, but that's not the point. I think we are only compared to them because they are popular. Because I really do not see many similarities. Liturgical pseudonyms have been done by other bands too, also long before Ghost. Their music is so soft that it is rather rock than any metal related. And I think their image is much more over the top than ours. Also, lyrically there may be some minor parallels, but I think we have a pretty different approach. Do they have songs about pedophile priests? Then again, I never listen to this band, so what the heck. I do not mind being compared to other bands at all, but I really find that association with Ghost pretty disturbing.
 
-{{< img-center src="/images/interviews/fvneral-fvkk/Fvneral-Fvkk-Band.jpg" >}}
+{{< img-center src="/images/interviews/fvneral-fvkk/Fvneral-Fvkk-Band.jpg" alt="Fvneral Fvkk - Band">}}
 
 &emsp;*V. As you said, religion, sexuality, perversion and bestiality isn't a new topic in metal in general. Just take Pungent Stench. So why did you choose doom metal with those beautiful vocals to tell your stories? Was another doom band obvious because of your background in Ophis?*
 
@@ -55,7 +55,7 @@ I can only agree absolutely.
 
 40 Watt Sun or rather Warning can be mentioned, for sure. We do not reflect our influences very much, because the more you think about them, the less natural they inspire you. I do not really know what influences Decanus Obscaenus has, who writes the main chunks of the riffs, but other influences that formed the sound of FF are Candlemass, Solitude Aeternus (especially for our singer), Procession, Tristitia and such bands. Oh, and Michael Jackson of course, because no other musician was such a master of pedophilia.
 
-{{<img-left src="/images/interviews/fvneral-fvkk/Nun.jpg" width="200" height="300" >}}
+{{<img-left src="/images/interviews/fvneral-fvkk/Nun.jpg" width="200" height="300" alt="Fvneral Fvkk - Nun">}}
 
 &emsp;*VIII. I know, these things take time. And a doom band works even slower than any other band. But relying on metal archives, you already exist since 2015. Were those three songs all material you have written yet? Or is "Lecherous Liturgies" just an appetizer for the things to come?*
 
@@ -80,7 +80,7 @@ Thou speakest in riddles, young acolyte. I know the norwegian Funeral, if you me
 Deaf Forever caught wind of this band, so they asked us if they could write a review of the EP. So we sent them an advance copy and they reviewed it. This “promo EP” is exactly the same EP we released now.
 We contacted many labels to see if there was any interest. Solitude Productions wanted to release an album, no EP. So they agreed only to a digital release. But for us it would have been not acceptable to just have a digital release, so we held back the release date until we found Bleeding Heart Nihilist Productions to release the 7”. It was more or less a nice surprise that Lychanthropic Chants offered to do the tape version. Sure it is a bit confusing to have all formats on different labels, but what the heck. We will see where the album will come out.
 
-{{<img-right src="/images/interviews/fvneral-fvkk/Fvneral-Fvkk-Logo.png" >}}
+{{<img-right src="/images/interviews/fvneral-fvkk/Fvneral-Fvkk-Logo.png" alt="Fvneral Fvkk - Logo">}}
 &emsp;*XIII. On the very first drafts of you logo, it totally fits to an occult atmosphere. But on facebook you use an version with shades, 3d effect and gloss that reminds me more on a traditional speed metal or NWOBHM band. Why didn't you keep a flattened version of this drawing?*
 
 I wish I knew. I did not deal with any of that stuff.
@@ -93,7 +93,7 @@ Yes, more or less. Fvneral Fvkk has some cynical, sarcastic tone to it, hence th
 
 As you already mentioned, we have a very graphic image and use very drastic visuals here and there. With such antics, a band risks to get recognized for their image rather than the music. Look at GWAR, look at Slipknot, look at Ghost. People discuss these bands mainly because of their antics, but the music is spoken of more rarely. We did not want people to say “ah, they just had a sick artwork to get attention”. Yes, we have in-your-face pictures on Facebook. But we take the music seriously and it is our main focus. Music first, image second. That's why we neglected any graphic “shock value” from the EP-artwork. We do not need provocation to sell records. The music is good enough to achieve that on its own. The internet-provocation is just because we want to. And we will keep it that way in the future as well.
 
-{{<img-center src="/images/cover/2017/Fvneral-Fvkk-Lecherous-Liturgies.jpg" alt="Lecherous Liturgies" >}}
+{{<img-center src="/images/cover/2017/Fvneral-Fvkk-Lecherous-Liturgies.jpg" alt="Fvneral Fvkk - Lecherous Liturgies">}}
 
 &emsp;*XVI. Will Fvneral Fvkk every release a full album in near future? I think the topics religion and perversity offers enough material to fill several records... Do you have any plans or even finished songs yet?*
 
