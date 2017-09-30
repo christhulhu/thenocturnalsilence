@@ -27,8 +27,9 @@ genre = "genre"
 label = "label"
 
 [permalinks]
-review = ":year/:month/:day/:slug"
-interview = ":year/:month/:day/:slug"
+review = "reviews/:year/:slug"
+interview = "interviews/:year/:slug"
+post = "post/:year/:month/:day/:slug"
 
 [[menu.head]]
     name = "Reviews"
