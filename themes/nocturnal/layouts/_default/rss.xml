@@ -22,6 +22,7 @@
       <media:content type="image/jpeg" medium="image" url="{{ .Site.BaseURL}}images/{{ .Params.image }}" />
       <description>
           {{ .Summary | html }}
+          <a href="{{ .Permalink }}">Read More…</a>
       </description>
       <content:encoded>{{chomp "<![CDATA[\n"}}
         {{ if isset .Params "image"}}
