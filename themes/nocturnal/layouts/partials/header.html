@@ -13,15 +13,7 @@
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-		<link rel="apple-touch-icon" href="{{ .Site.BaseURL }}images/assets/apple-touch-icon.png">
-		<link rel="icon" href="{{ .Site.BaseURL }}images/assets/favicon.png">
-		{{"<!--[if IE] >"  | safeHTML }}
-		{{"	<link rel=\"shortcut icon\" href=\""| safeHTML }}{{ .Site.BaseURL }}{{"favicon.ico\">"  | safeHTML }}
-		{{"<![endif]-->"  | safeHTML }}
-		<meta name="msapplication-TileColor" content="#222">
-        <meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}images/assets/tile-large.png">
-        <meta name="msapplication-config" content="{{ .Site.BaseURL }}ieconfig.xml" />
-        <meta name="theme-color" content="#222">
+		{{ partial "header/icons.html"}}
 
         <meta name="google-site-verification" content="fIXr57vHwOHOnO4M5FwEV8kf0ODEsd_so9RG341DCUE" />
 
