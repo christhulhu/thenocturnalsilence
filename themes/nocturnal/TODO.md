@@ -28,6 +28,9 @@
     [X] Open Graph
     [X] Twitter Cards
     [ ] AMP
+		[ ] Index
+		[ ] Categories
+		[ ] Taxonomies
 	[X] RSS-Feed
     [ ] Facebook Instant Articles
 [X] Responsive-Ansichten
