@@ -34,6 +34,7 @@
     </style>
   </head>
   <body>
+    <amp-img src="{{ .Site.BaseURL }}{{.Site.Params.logo}}" width="449" height="250" layout="responsive"></amp-img>
     {{if isset .Params "image" }}
         <amp-img src="{{ .Site.BaseURL }}images/{{.Params.image}}" width="900" height="900" layout="responsive"></amp-img>
     {{end}}
@@ -81,5 +82,7 @@
     </span>
     </li>
     </ul>
+
+    <amp-pixel src="https://piwik.necroslaughter.de/piwik.php?idsite=7&rec=1" layout="nodisplay"></amp-pixel>
   </body>
 </html>
