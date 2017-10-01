@@ -1,7 +1,4 @@
 {{ partial "amp/header.html" . }}
-    {{if isset .Params "image" }}
-        <amp-img src="{{ .Site.BaseURL }}images/{{.Params.image}}" width="900" height="900" layout="responsive"></amp-img>
-    {{end}}
     <h1>{{ .Title }}</h1>
 
     {{ .Content }}
