@@ -1,7 +1,7 @@
 {{ partial "amp/header.html" . }}
     <h1>{{ .Title }}</h1>
 
-    {{ replace .Content "<img" "<amp-img"}}
+    {{ replace .Content "img" "amp-img" }}
 
     <ul class="review-meta list-unstyled">
         {{if isset .Params "genre" }}
