@@ -9,7 +9,7 @@ genre = ["Doom Metal"]
 player = "<iframe style='border: 0; width: 100%; height: 241px;' src='https://bandcamp.com/EmbeddedPlayer/album=3665768764/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://fvneralfvkk.bandcamp.com/album/the-lecherous-liturgies-ep'>The Lecherous Liturgies (EP) by Fvneral Fvkk</a></iframe>"
 
 image = "interviews/fvneral-fvkk/FF_background.jpg"
-previewimage = "interviews/fvneral-fvkk/FF_Logo.png"
+previewimage = "interviews/fvneral-fvkk/fvneral-fvkk-preview.jpg"
 
 links = [
     "[http://www.fvneralfvkk.de/](http://www.fvneralfvkk.de/)",

@@ -95,8 +95,11 @@ article{
   background-attachment: fixed;
   background-blend-mode: saturation;
 }
-.review-header, .background-image {
-  background-color: rgba(0, 0, 0, 0.85);
+.review-header{
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.background-image {
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .home-background-image {
  background-color: rgba(0, 0, 0, 0.7);
