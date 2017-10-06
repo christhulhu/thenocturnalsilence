@@ -6,7 +6,7 @@ date = "2017-10-06T23:02:09+02:00"
 category = ["Reviews"]
 artist = ["Vanum"]
 genre = ["Black Metal"]
-label = ["Eisenwald Tonschmiedess"]
+label = ["Eisenwald Tonschmiede"]
 
 links = [
     "[facebook.com/realmofsacrifice](https://www.facebook.com/realmofsacrifice)",
