@@ -13,7 +13,7 @@ links = [
     "[cold-dimensions.de/](http://cold-dimensions.de/)",
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=1405098764/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless></iframe>'
+player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=1405098764/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless></iframe>"
 
 image = "cover/2017/coldworld-wolves-and-sheep.jpg"
 +++

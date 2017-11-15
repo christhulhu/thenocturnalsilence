@@ -14,7 +14,7 @@ links = [
     "[myrkurmusic.com](https://www.myrkurmusic.com)"
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=1108340226/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" ></iframe>'
+player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=1108340226/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/Myrkur-Mareridt.jpg"
 +++

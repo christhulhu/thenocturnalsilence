@@ -14,7 +14,7 @@ links = [
     "[wittr.com](http://wittr.com)"
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=3858804827/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless></iframe>'
+player = "<iframe style='border: 0; width: 100%; height: 307px;' src='https://bandcamp.com/EmbeddedPlayer/album=3858804827/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless></iframe>"
 
 image = "cover/2017/wolves-in-the-throne-room-thrice-woven.jpg"
 +++

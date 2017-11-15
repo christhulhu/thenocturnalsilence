@@ -12,7 +12,7 @@ links = [
     "[facebook.com/myteriswe/](https://www.facebook.com/myteriswe/)"
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 472px;" src="https://bandcamp.com/EmbeddedPlayer/album=199614458/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless></iframe>'
+player = "<iframe style='border: 0; width: 100%; height: 472px;' src='https://bandcamp.com/EmbeddedPlayer/album=199614458/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless></iframe>"
 
 image = "cover/2017/myteri-ruiner.jpg"
 +++

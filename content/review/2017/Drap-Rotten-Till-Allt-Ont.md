@@ -13,7 +13,7 @@ links = [
     "[drapofficial.bandcamp.com](https://drapofficial.bandcamp.com)"
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 406px;" src="https://bandcamp.com/EmbeddedPlayer/album=2819048912/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" ></iframe>'
+player = "<iframe style='border: 0; width: 100%; height: 406px;' src='https://bandcamp.com/EmbeddedPlayer/album=2819048912/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' ></iframe>"
 
 image = "cover/2017/drap-rotten-till-allt-ont.jpg"
 +++

@@ -13,7 +13,7 @@ links = [
     "[vanum.bandcamp.com](https://vanum.bandcamp.com)"
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 241px;" src="https://bandcamp.com/EmbeddedPlayer/album=815320170/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless></iframe>'
+player = "<iframe style='border: 0; width: 100%; height: 241px;' src='https://bandcamp.com/EmbeddedPlayer/album=815320170/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless></iframe>"
 
 image = "cover/2017/vanum-burning-arrow.jpg"
 +++

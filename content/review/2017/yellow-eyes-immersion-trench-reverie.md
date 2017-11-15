@@ -13,7 +13,7 @@ links = [
     "[facebook.com/Yellow-Eyes-659862920738821/](https://www.facebook.com/Yellow-Eyes-659862920738821/)"
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=279769716/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" seamless><a href="http://yelloweyes.bandcamp.com/album/immersion-trench-reverie">Immersion Trench Reverie by Yellow Eyes</a></iframe>'
+player = "<iframe style='border: 0; width: 100%; height: 340px;' src='https://bandcamp.com/EmbeddedPlayer/album=279769716/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' seamless><a href='http://yelloweyes.bandcamp.com/album/immersion-trench-reverie'>Immersion Trench Reverie by Yellow Eyes</a></iframe>"
 
 image = "cover/2017/Yellow-Eyes-Immersion-Trench-Reverie.jpg"
 +++

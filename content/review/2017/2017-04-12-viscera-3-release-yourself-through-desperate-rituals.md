@@ -12,7 +12,7 @@ links = [
 "[viscera3stripes.bandcamp.com/](https://viscera3stripes.bandcamp.com/)  ",
 ]
 
-player = '<iframe style="border: 0; width: 100%; height: 307px;" src="https://bandcamp.com/EmbeddedPlayer/album=3099411544/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/" > </iframe>'
+player = "<iframe style='border: 0; width: 100%; height: 307px;' src='https://bandcamp.com/EmbeddedPlayer/album=3099411544/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/' > </iframe>"
 image = "cover/2017/Viscera-3-Release-Yourself-Through-Desperate-Rituals.jpg"
 +++
 
