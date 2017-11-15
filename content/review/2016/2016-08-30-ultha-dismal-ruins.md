@@ -1,6 +1,6 @@
 +++
 title = "Ultha - Dismal Ruins"
-date = "2016-08-30 00:29:02"
+date = "2016-08-30T00:29:02"
 slug ="ultha-dismal-ruins"
 artist = ["Ultha"]
 category = ["Reviews"]

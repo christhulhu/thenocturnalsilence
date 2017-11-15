@@ -1,6 +1,6 @@
 +++
 title = "Skognatt - Landscape Of Ice"
-date = "2016-09-18 22:15:54"
+date = "2016-09-18T22:15:54"
 slug ="skognatt-landscape-of-ice"
 artist = ["Skognatt"]
 category = ["Reviews"]

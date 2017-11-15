@@ -1,6 +1,6 @@
 +++
 title = "Sol Sistere - Unfading Incorporeal Vacuum"
-date = "2016-08-21 16:42:48"
+date = "2016-08-21T16:42:48"
 slug ="sol-sistere-unfading-incorporeal-vacuum"
 artist = ["Sol Sistere"]
 category = ["Reviews"]

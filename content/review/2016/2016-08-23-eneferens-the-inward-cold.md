@@ -1,6 +1,6 @@
 +++
 title = "Eneferens - The Inward Cold"
-date = "2016-08-23 23:47:18"
+date = "2016-08-23T23:47:18"
 slug ="eneferens-the-inward-cold"
 artist = ["Eneferens"]
 category = ["Reviews"]

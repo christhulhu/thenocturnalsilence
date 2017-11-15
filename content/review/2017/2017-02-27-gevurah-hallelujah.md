@@ -1,6 +1,6 @@
 +++
 title = "Gevurah - Hallelujah!"
-date = "2017-02-27 21:41:42"
+date = "2017-02-27T21:41:42"
 slug ="gevurah-hallelujah"
 artist = ["Gevurah"]
 category = ["Reviews"]

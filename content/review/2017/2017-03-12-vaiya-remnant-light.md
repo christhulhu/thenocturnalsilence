@@ -1,6 +1,6 @@
 +++
 title = "Vaiya - Remnant Light"
-date = "2017-03-12 20:32:48"
+date = "2017-03-12T20:32:48"
 slug ="vaiya-remnant-light"
 artist = ["Vaiya"]
 category = ["Reviews"]

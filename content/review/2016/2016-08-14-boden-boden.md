@@ -1,6 +1,6 @@
 +++
 title = "Boden - Boden"
-date = "2016-08-14 21:21:51"
+date = "2016-08-14T21:21:51"
 slug ="boden-boden"
 artist = ["Boden"]
 category = ["Reviews"]

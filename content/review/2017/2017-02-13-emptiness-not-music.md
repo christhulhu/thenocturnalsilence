@@ -1,6 +1,6 @@
 +++
 title = "Emptiness - Not For Music"
-date = "2017-02-13 21:05:38"
+date = "2017-02-13T21:05:38"
 slug ="emptiness-not-music"
 artist = ["Emptiness"]
 category = ["Reviews"]

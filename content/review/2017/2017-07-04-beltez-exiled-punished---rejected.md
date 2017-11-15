@@ -1,6 +1,6 @@
 +++
 title = "Beltez - Exiled, Punished​.​.​. ​Rejected"
-date = "2017-07-04 09:48:38"
+date = "2017-07-04T09:48:38"
 slug ="beltez-exiled-punished%E2%80%8B-%E2%80%8B-%E2%80%8B-%E2%80%8Brejected/"
 artist = ["Beltez"]
 category = ["Reviews"]

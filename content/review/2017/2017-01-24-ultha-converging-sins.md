@@ -1,6 +1,6 @@
 +++
 title = "Ultha - Converging Sins"
-date = "2017-01-24 23:48:43"
+date = "2017-01-24T23:48:43"
 slug ="ultha-converging-sins"
 artist = ["Ultha"]
 category = ["Reviews"]

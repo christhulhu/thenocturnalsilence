@@ -1,6 +1,6 @@
 +++
 title = "Sinistro - Semente"
-date = "2017-01-17 00:06:25"
+date = "2017-01-17T00:06:25"
 slug ="sinistro-semente"
 artist = ["Sinistro"]
 category = ["Reviews"]

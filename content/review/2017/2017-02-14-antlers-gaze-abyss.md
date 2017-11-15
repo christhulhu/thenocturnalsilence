@@ -1,6 +1,6 @@
 +++
 title = "Antlers - A Gaze Into The Abyss"
-date = "2017-02-14 23:03:59"
+date = "2017-02-14T23:03:59"
 slug ="antlers-gaze-abyss"
 artist = ["Antlers"]
 category = ["Reviews"]

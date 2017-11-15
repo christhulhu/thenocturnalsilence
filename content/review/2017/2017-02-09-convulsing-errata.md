@@ -1,6 +1,6 @@
 +++
 title = "Convulsing - Errata"
-date = "2017-02-09 22:28:28"
+date = "2017-02-09T22:28:28"
 slug ="convulsing-errata"
 artist = ["Convulsing"]
 category = ["Reviews"]

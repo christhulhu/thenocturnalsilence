@@ -1,6 +1,6 @@
 +++
 title = "Fvnerals - Wounds"
-date = "2016-10-11 22:39:16"
+date = "2016-10-11T22:39:16"
 slug ="fvnerals-wounds"
 artist = ["Fvnerals"]
 category = ["Reviews"]

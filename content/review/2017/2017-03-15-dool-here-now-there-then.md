@@ -1,6 +1,6 @@
 +++
 title = "Dool - Here Now, There Then"
-date = "2017-03-15 10:31:34"
+date = "2017-03-15T10:31:34"
 slug ="dool-here-now-there-then"
 artist = ["Dool"]
 category = ["Reviews"]

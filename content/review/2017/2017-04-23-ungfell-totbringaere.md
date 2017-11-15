@@ -1,6 +1,6 @@
 +++
 title = "Ungfell -  Tôtbringære"
-date = "2017-04-23 21:35:37"
+date = "2017-04-23T21:35:37"
 slug ="ungfell-totbringaere"
 artist = ["Ungfell"]
 category = ["Reviews"]

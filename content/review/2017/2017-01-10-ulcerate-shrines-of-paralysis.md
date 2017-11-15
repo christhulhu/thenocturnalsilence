@@ -1,6 +1,6 @@
 +++
 title = "Ulcerate - Shrines Of Paralysis"
-date = "2017-01-10 23:04:21"
+date = "2017-01-10T23:04:21"
 slug ="ulcerate-shrines-of-paralysis"
 artist = ["Ulcerate"]
 category = ["Reviews"]

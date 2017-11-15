@@ -1,6 +1,6 @@
 +++
 title = "ColdWorld - Autumn"
-date = "2016-08-27 19:22:24"
+date = "2016-08-27T19:22:24"
 slug ="coldworld-autumn"
 artist = ["Coldworld"]
 category = ["Reviews"]

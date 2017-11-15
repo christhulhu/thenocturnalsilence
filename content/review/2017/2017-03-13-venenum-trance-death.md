@@ -1,6 +1,6 @@
 +++
 title = "Venenum - Trance Of Death"
-date = "2017-03-13 12:32:01"
+date = "2017-03-13T12:32:01"
 slug ="venenum-trance-death"
 artist = ["Venenum"]
 category = ["Reviews"]

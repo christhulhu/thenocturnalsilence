@@ -1,6 +1,6 @@
 +++
 title = "Datenschutzerklärung"
-date = "2017-01-01 20:32:52"
+date = "2017-01-01T20:32:52"
 slug ="data-privacy-statement"
 
 +++

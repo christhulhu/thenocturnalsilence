@@ -1,6 +1,6 @@
 +++
 title = "Lantern - II: Morphosis"
-date = "2017-03-13 23:20:11"
+date = "2017-03-13T23:20:11"
 slug ="lantern-ii-morphosis"
 artist = ["Lantern"]
 category = ["Reviews"]

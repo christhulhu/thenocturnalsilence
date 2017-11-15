@@ -1,6 +1,6 @@
 +++
 title = "Phantom Winter - Sundown Pleasures"
-date = "2016-09-06 22:12:58"
+date = "2016-09-06T22:12:58"
 slug ="phantom-winter-sundown-pleasures"
 artist = ["Phantom Winter"]
 category = ["Reviews"]

@@ -1,6 +1,6 @@
 +++
 title = "Woe - Hope Attrition"
-date = "2017-03-21 23:03:09"
+date = "2017-03-21T23:03:09"
 slug ="woe-hope-attrition"
 artist = ["Woe"]
 category = ["Reviews"]

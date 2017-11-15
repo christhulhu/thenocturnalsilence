@@ -1,6 +1,6 @@
 +++
 title = "Time Lurker"
-date = "2017-10-03 20:32:52"
+date = "2017-10-03T20:32:52"
 slug ="time-lurker"
 artist = ["Time Lurker"]
 category = ["Interviews"]

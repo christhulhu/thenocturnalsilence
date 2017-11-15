@@ -1,6 +1,6 @@
 +++
 title = "Numenorean - Home"
-date = "2016-08-14 20:13:33"
+date = "2016-08-14T20:13:33"
 slug ="numenorean-home"
 artist = ["Numenorean"]
 category = ["Reviews"]

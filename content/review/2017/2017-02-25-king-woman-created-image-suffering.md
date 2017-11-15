@@ -1,6 +1,6 @@
 +++
 title = "King Woman - Created In The Image Of Suffering"
-date = "2017-02-25 19:57:00"
+date = "2017-02-25T19:57:00"
 slug ="king-woman-created-image-suffering"
 artist = ["King Woman"]
 category = ["Reviews"]

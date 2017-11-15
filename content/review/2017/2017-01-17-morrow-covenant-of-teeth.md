@@ -1,6 +1,6 @@
 +++
 title = "Morrow - Covenant Of Teeth"
-date = "2017-01-17 22:29:38"
+date = "2017-01-17T22:29:38"
 slug ="morrow-covenant-of-teeth"
 artist = ["Morrow"]
 category = ["Reviews"]

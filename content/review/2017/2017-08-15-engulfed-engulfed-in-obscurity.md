@@ -1,6 +1,6 @@
 +++
 title = "Engulfed - Engulfed In Obscurity"
-date = "2017-08-15 10:34:59"
+date = "2017-08-15T10:34:59"
 slug ="engulfed-engulfed-in-obscurity"
 artist = ["Engulfed"]
 category = ["Reviews"]

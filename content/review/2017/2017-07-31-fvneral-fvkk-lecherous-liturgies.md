@@ -1,6 +1,6 @@
 +++
 title = "Fvneral Fvkk - Lecherous Liturgies"
-date = "2017-07-31 19:18:40"
+date = "2017-07-31T19:18:40"
 slug ="fvneral-fvkk-lecherous-liturgies"
 artist = ["Fvneral Fvkk"]
 category = ["Reviews"]

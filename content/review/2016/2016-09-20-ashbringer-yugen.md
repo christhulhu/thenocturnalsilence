@@ -1,6 +1,6 @@
 +++
 title = "Ashbringer - Yūgen"
-date = "2016-09-20 22:46:06"
+date = "2016-09-20T22:46:06"
 slug ="ashbringer-yugen"
 artist = ["Ashbringer"]
 category = ["Reviews"]

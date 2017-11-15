@@ -1,6 +1,6 @@
 +++
 title = "Fäulnis - Antikult"
-date = "2017-03-27 20:50:31"
+date = "2017-03-27T20:50:31"
 slug ="faulnis-antikult"
 artist = ["Fäulnis"]
 category = ["Reviews"]

@@ -1,6 +1,6 @@
 +++
 title = "The Great Old Ones - EOD: A Tale Of Dark Legacy"
-date = "2017-02-13 23:06:06"
+date = "2017-02-13T23:06:06"
 slug ="great-old-ones-eod-tale-dark-legacy"
 artist = ["The Great Old Ones"]
 category = ["Reviews"]

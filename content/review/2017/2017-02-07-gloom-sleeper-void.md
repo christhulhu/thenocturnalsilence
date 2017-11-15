@@ -1,6 +1,6 @@
 +++
 title = "Gloom Sleeper - A Void"
-date = "2017-02-07 22:58:55"
+date = "2017-02-07T22:58:55"
 slug ="gloom-sleeper-void"
 artist = ["Gloom Sleeper"]
 category = ["Reviews"]

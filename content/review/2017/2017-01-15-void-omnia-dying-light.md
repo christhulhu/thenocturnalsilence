@@ -1,6 +1,6 @@
 +++
 title = "Void Omnia - Dying Light"
-date = "2017-01-15 22:39:18"
+date = "2017-01-15T22:39:18"
 slug ="void-omnia-dying-light"
 artist = ["Void Omnia"]
 category = ["Reviews"]

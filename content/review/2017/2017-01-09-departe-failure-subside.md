@@ -1,6 +1,6 @@
 +++
 title = "Départe - Failure, Subside"
-date = "2017-01-09 23:45:14"
+date = "2017-01-09T23:45:14"
 slug ="departe-failure-subside"
 artist = ["Départe"]
 category = ["Reviews"]

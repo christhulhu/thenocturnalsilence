@@ -5,7 +5,7 @@ date = "2017-09-25T20:32:05+02:00"
 
 category = ["Reviews"]
 artist = ["Desecresy"]
-genre = ["Doom Death Metal", "Death Metal"]
+genre = ["Doom-Death Metal", "Death Metal"]
 label = ["Xtreem Music"]
 
 links = [

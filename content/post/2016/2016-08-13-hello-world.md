@@ -1,6 +1,6 @@
 +++
 title = "The Nocturnal Silence"
-date = "2016-08-13 17:43:25"
+date = "2016-08-13T17:43:25"
 slug ="hello-world"
 category = ["Blog"]
 

@@ -1,6 +1,6 @@
 +++
 title = "MMXVII - A New Dawn"
-date = "2017-01-21 22:01:26"
+date = "2017-01-21T22:01:26"
 slug ="mmxvii-new-dawn"
 category = ["Blog"]
 +++

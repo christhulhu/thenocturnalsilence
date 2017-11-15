@@ -1,6 +1,6 @@
 +++
 title = "Viscera/// - 3: Release Yourself Through Desperate Rituals"
-date = "2017-04-12 22:40:34"
+date = "2017-04-12T22:40:34"
 slug ="viscera-3-release-yourself-through-desperate-rituals"
 artist = ["Viscera///"]
 category = ["Reviews"]

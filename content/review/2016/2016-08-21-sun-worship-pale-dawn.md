@@ -1,6 +1,6 @@
 +++
 title = "Sun Worship - Pale Dawn"
-date = "2016-08-21 12:45:21"
+date = "2016-08-21T12:45:21"
 slug ="sun-worship-pale-dawn"
 artist = ["Sun Worship"]
 category = ["Reviews"]

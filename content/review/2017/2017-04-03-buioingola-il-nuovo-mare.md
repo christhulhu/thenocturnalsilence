@@ -1,6 +1,6 @@
 +++
 title = "Buioingola - Il Nuovo Mare"
-date = "2017-04-03 20:21:17"
+date = "2017-04-03T20:21:17"
 slug ="buioingola-il-nuovo-mare"
 artist = ["Buioingola"]
 category = ["Reviews"]

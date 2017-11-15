@@ -1,6 +1,6 @@
 +++
 title = "Ius Talionis - Saligia"
-date = "2017-06-28 22:04:14"
+date = "2017-06-28T22:04:14"
 slug ="ius-talionis-saligia"
 artist = ["Ius Talionis"]
 category = ["Reviews"]

@@ -1,6 +1,6 @@
 +++
 title = "Ulsect - Ulsect"
-date = "2017-08-02 20:12:34"
+date = "2017-08-02T20:12:34"
 slug ="ulsect-ulsect"
 artist = ["Ulsect"]
 category = ["Reviews"]

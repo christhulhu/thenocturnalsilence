@@ -1,6 +1,6 @@
 +++
 title = "Zhrine - Unortheta"
-date = "2017-01-22 22:58:20"
+date = "2017-01-22T22:58:20"
 slug ="zhrine-unortheta"
 artist = ["Zhrine"]
 category = ["Reviews"]

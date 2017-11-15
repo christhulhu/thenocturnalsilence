@@ -1,6 +1,6 @@
 +++
 title = "In The Woods... - Pure"
-date = "2017-02-05 22:05:09"
+date = "2017-02-05T22:05:09"
 slug ="in-the-woods-pure"
 artist = ["In The Woods..."]
 category = ["Reviews"]
