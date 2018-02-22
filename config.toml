@@ -1,7 +1,7 @@
 languageCode = "en-en"
 title = "TheNocturnalSilence.de"
 baseURL = "https://thenocturnalsilence.de/"
-theme = "nocturnal"
+theme = "nocturnal-2018"
 removePathAccents=true
 preserveTaxonomyNames=true
 

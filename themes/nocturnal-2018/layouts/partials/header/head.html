@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<nav class="navbar navbar-nav navbar-expand justify-content-center">
+				{{ if isset .Site.Params "logo" }}
+				<a class="navbar-brand" href="{{ .Site.BaseURL }}" class="custom-logo-link" rel="home" itemprop="url">
+					<img src="{{ .Site.BaseURL }}{{.Site.Params.logo}}" class="img-fluid mx-auto d-inline-block align-bottom" alt="{{ .Title }}" />
+				</a>
+				{{ end }}
+			</nav>
+
+			{{ partial "header/mainmenu.html" .}}
+		</div>
+	</div>
+</div><!-- container header -->
+<div class="container main">

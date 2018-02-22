@@ -1,0 +1,20 @@
+<nav class="nav justify-content-between">
+	<ul class="nav justify-content-start">
+		{{ $currentPage := . }}
+		{{ range .Site.Menus.head -}}
+		<li class="nav-item">
+			<a class="nav-link" href="{{.URL}}"> {{ .Name }} </a>
+		</li>
+		{{- end }}
+	</ul>
+
+	<ul class="nav justify-conent-end">
+		{{ range .Site.Menus.social -}}
+		<li class="nav-item">
+			<a class="nav-link" target="_blank" href="{{ .URL }}">
+				<i class="fa fa-{{ .Name }}" title="{{ .Name }}"></i>
+			</a>
+		</li>
+		{{ end }}
+	</ul>
+</nav>

@@ -1,0 +1,38 @@
+/*
+Error: Invalid CSS after "@import 'fonts'": expected selector or at-rule, was "@import 'colors'"
+        on line 2 of /home/chris/workspace/thenocturnalsilence.de/themes/nocturnal-2018/static/scss/./nocturnal.scss
+
+1: @import 'fonts'
+2: @import 'colors'
+3: 
+4: 
+5: html {
+6:     background-color: #111;
+7:     font-family: 'PT Serif', serif;
+
+Backtrace:
+/home/chris/workspace/thenocturnalsilence.de/themes/nocturnal-2018/static/scss/./nocturnal.scss:2
+/usr/share/gems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/scss/parser.rb:1137:in `expected'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/scss/parser.rb:42:in `parse'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/engine.rb:409:in `_to_tree'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/share/gems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/home/chris/.gem/ruby/gems/listen-3.1.5/lib/listen/event/config.rb:23:in `call'
+/home/chris/.gem/ruby/gems/listen-3.1.5/lib/listen/event/processor.rb:115:in `_process_changes'
+/home/chris/.gem/ruby/gems/listen-3.1.5/lib/listen/event/processor.rb:19:in `block in loop_for'
+/home/chris/.gem/ruby/gems/listen-3.1.5/lib/listen/event/processor.rb:15:in `loop'
+/home/chris/.gem/ruby/gems/listen-3.1.5/lib/listen/event/processor.rb:15:in `loop_for'
+/home/chris/.gem/ruby/gems/listen-3.1.5/lib/listen/event/loop.rb:84:in `_wait_for_changes'
+/home/chris/.gem/ruby/gems/listen-3.1.5/lib/listen/event/loop.rb:42:in `block in setup'
+/home/chris/.gem/ruby/gems/listen-3.1.5/lib/listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import 'fonts'\": expected selector or at-rule, was \"@import 'colors'\"\A         on line 2 of /home/chris/workspace/thenocturnalsilence.de/themes/nocturnal-2018/static/scss/./nocturnal.scss\A \A 1: @import 'fonts'\A 2: @import 'colors'\A 3: \A 4: \A 5: html {\A 6:     background-color: #111;\A 7:     font-family: 'PT Serif', serif;"; }
