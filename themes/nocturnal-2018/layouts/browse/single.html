@@ -1,26 +1,28 @@
 {{ partial "header.html" . }}
 {{ partial "header/head.html" . }}
 <div id="content">
-    <div class="row">
-        <div class="col">
-            <h2>{{.Title}}</h2>
-        </div>
-    </div>
+	<div class="row">
+		<div class="col">
+			<h2>{{.Title}}</h2>
+		</div>
+	</div>
 
-    <div class="row">
-        {{ range $name, $taxonomy := .Site.Taxonomies }}
-            {{if ne $name "category"}}
-            <div class="col">
-                <h3 class="capitalize-first-letter">By <span class="capitalize-first-letter">{{ $name }}</span></h3>
-                <ul class="list-unstyled">
-                    {{ range $key, $value :=$taxonomy}}
-                    <li><i class="fa fa-folder-open"></i>&nbsp;<a href="{{ $.Site.BaseURL }}{{ $name | urlize }}/{{$key|urlize}}">{{$key}}</a></li>
-                    {{end}}
-                </ul>
-            </div>
-            {{end}}
-      {{ end }}
-    </div>
+	<div class="browse-wrapper">
+		<div class="row">
+			{{ range $name, $taxonomy := .Site.Taxonomies }}
+			{{if ne $name "category"}}
+			<div class="col">
+				<h3 class="capitalize-first-letter">By <span class="capitalize-first-letter">{{ $name }}</span></h3>
+				<ul class="list-unstyled">
+					{{ range $key, $value :=$taxonomy}}
+					<li><i class="fa fa-folder-open"></i>&nbsp;<a href="{{ $.Site.BaseURL }}{{ $name | urlize }}/{{$key|urlize}}">{{$key}}</a></li>
+					{{end}}
+				</ul>
+			</div>
+			{{end}}
+			{{ end }}
+		</div>
+	</div>
 </div>
 
 {{ partial "footer.html" . }}

@@ -1,9 +1,9 @@
 
-<ul class="nav justify-content-center footermenu">
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.footer -}}
-    <li class="nav-item">
-        <a class="nav-link" href="{{.URL}}"> {{ .Name }} </a>
-    </li>
-    {{- end }}
+<ul class="nav nav-fill footermenu">
+	{{ $currentPage := . }}
+	{{ range .Site.Menus.footer -}}
+	<li class="nav-item">
+		<a class="nav-link" href="{{.URL}}"> {{ .Name }} </a>
+	</li>
+	{{- end }}
 </ul>

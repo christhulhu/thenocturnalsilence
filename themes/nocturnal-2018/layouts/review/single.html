@@ -1,60 +1,75 @@
 {{ partial "header.html" . }}
 {{ partial "header/head.html" . }}
 <main id="main"> <!--  itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Thing"-->
-  <article id="content" class="cf" itemscope itemprop="review" itemtype="http://schema.org/Review">
+<article id="content" class="cf review" itemscope itemprop="review" itemtype="http://schema.org/Review">
 
-  <header class="article-header entry-header">
-      <div class="container">
-          <div class="row">
-              <div class="col">
-                <h1 class="entry-title" itemprop="headline" rel="bookmark">Review: {{ .Title }}</h1>
-              </div>
-          </div>
-      </div>
-  </header>
+	<header class="article-header entry-header">
+		<div class="container">
+			<div class="row">
+				<div class="col d-flex justify-content-between">
+					<h2 class="entry-title" itemprop="headline" rel="bookmark">{{ .Title }}</h2>
+					<p class="lower-opacity small">
+					<i class="fa fa-folder-open"></i>
+					{{ range $index, $category := .Params.category }}
+					{{ if gt $index 0 }}, {{ end }}<a href="{{ "/category/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+					{{ end }}
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
 
-  <div class="container">
-      <div class="row">
-        <div class="entry-content {{if isset .Params "image" }}col-xs-12 col-sm-12 col-md-8 col-lg-8{{else}}col-xs-12 col-sm-12 col-md-12 col-lg-12{{end}}">
-          {{ .Content }}
-        </div>
-        {{if isset .Params "image" }}
-        <div class="entry-content-meta col-xs-12 col-sm-12 col-md-4 col-lg-4">
-          <div class="post-image">
-              <a href="{{ .Site.BaseURL }}images/{{.Params.image}}" class="vanillabox">
-                  <img src="{{ .Site.BaseURL }}images/{{.Params.image}}"
-                  alt="{{ .Title }}"
-                  class="img-fluid"/>
-              </a>
-          </div>
-          {{if isset .Params "player" }}
-          <div class="webzine_embedded_bandcamp">{{ .Params.player | safeHTML }}</div>
-          {{end}}
-        </div>
-        {{end}}
-      </div>
-  </div>
+	<div class="container">
+		<div class="row">
+			<div class="entry-content {{if isset .Params "image" }}col-xs-12 col-sm-12 col-md-8 col-lg-8{{else}}col-xs-12 col-sm-12 col-md-12 col-lg-12{{end}}">
+				{{ .Content }}
 
-  <footer class="article-footer">
-      <div class="container">
-          <div class="row">
-              <div class="col">
-                <div class="byline review-meta-details vcard" >
-                  {{ partial "reviews/review-meta.html" . }}
-                </div>
+			</div>
+			{{if isset .Params "image" }}
+			<div class="entry-content-meta col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<div class="post-image">
+					<a href="{{ .Site.BaseURL }}images/{{.Params.image}}" class="vanillabox">
+						<img src="{{ .Site.BaseURL }}images/{{.Params.image}}" alt="{{ .Title }}" class="img-fluid"/>
+					</a>
+				</div>
+				{{if isset .Params "player" }}
+				<div class="webzine_embedded_bandcamp">{{ .Params.player | safeHTML }}</div>
+				{{end}}
+				<footer class="article-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="byline review-meta-details vcard lower-opacity" >
+									{{ partial "reviews/review-meta.html" . }}
+								</div>
 
-                {{ if isset $.Params "links"}}
-                  <ul class="review-meta-links list-unstyled">
-                    {{ range $.Params.links}}
-                      <li><i class="fa fa-link"></i> {{markdownify .}}</li>
-                    {{end}}
-                  </ul>
-                {{end}}
-              </div>
-          </div>
-      </div>
-  </footer>
-  </article>
+									{{ if isset $.Params "links"}}
+									<ul class="review-meta-links list-unstyled">
+										{{ range $.Params.links}}
+										<li><i class="fa fa-link"></i> {{markdownify .}}</li>
+										{{end}}
+									</ul>
+									{{end}}
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+			{{end}}
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col d-flex justify-content-end">
+			<div class="small lower-opacity d-block-inline">
+				<i class="fa fa-user"></i> Written by <span itemprop="author"><a href="mailto:{{.Site.Author.email}}">{{ .Site.Author.name }}</a></span> on
+				<time class="updated entry-time" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
+					<i class="fa fa-calendar"></i> {{ dateFormat "2006-01-02" .Date }}
+				</time>
+			</div>
+		</div>
+	</div>
+</article>
 </main>
 
 {{ partial "footer.html" . }}

@@ -1,0 +1,93 @@
+.nopadding {
+	padding: 0 !important;
+}
+
+img.float-left {
+	margin-right: 1.5em;
+}
+
+img.float-right {
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+img.d-block {
+	margin-bottom: 1em;
+}
+
+.entry-content-meta iframe {
+	max-width: 100%;
+	margin-bottom: 1em;
+}
+.home-article {
+	margin-bottom: 2em;
+}
+.home-article, // Archive
+.background-image, // Body Background
+.home-background-image // Artikel auf Startseite
+{
+	background-size: cover;
+	background-position: center;
+	//background-attachment: fixed;
+	background-blend-mode: saturation;
+}
+
+.background-image, .home-background-image {
+	background-attachment: fixed;
+}
+
+.home-article-background-image {
+	background-position: center;
+}
+
+iframe.piwik-opt-out {
+	border: 0;
+	width: 100%;
+	background: #fff;
+	color: #eee;
+	font-family: 'PT Sans' !important;
+}
+
+.lower-opacity {
+	opacity: 0.5;
+}
+
+.interview, .review {
+	background: rgba($black, 0.9);
+	box-shadow: 5px 5px 20px 10px rgba($true_black,0.5);
+	padding-top: 1em;
+}
+
+.no-shadow {
+	box-shadow: none !important;
+}
+
+.browse-wrapper {
+	background: rgba($black, 0.5);
+	box-shadow: 5px 5px 20px 10px rgba($true_black,0.5);
+	padding: 1em;
+}
+
+.interview {
+	p {
+		&>em {
+			font-weight: 600;
+			text-indent: 1em;
+			display: block;
+			text-align: justify;
+		}
+	}
+
+	img {
+		box-shadow: 5px 5px 10px 2px $true_black;
+	}
+
+	.entry-content {
+		&>img:nth-of-type(1) {
+			box-shadow: none !important;
+		}
+	}
+}
+
+.hide-on-mobile {
+	visibility: hidden;
+}

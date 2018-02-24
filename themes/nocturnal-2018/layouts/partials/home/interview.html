@@ -1,11 +1,16 @@
 <div class="container home-article {{if isset .Params "image" }}home-article-background-image{{end}}" {{if isset .Params "image" }}style="background-image: url({{ .Site.BaseURL }}images/{{ .Params.image }});"{{end}}>
 <article >
         <div class="row">
-            <header class="article-header">
-                <div class="capitalize-first-letter">{{.Section}}</div>
-                <h1 class="page_title entry-title">
+            <header class="article-header d-flex justify-content-between">
+                <h2 class="d-block-inline">
                     <a href="{{ .Permalink }}" class="transition" rel="bookmark" title="{{ .Title }}"> {{ .Title }}</a>
-                </h1>
+                </h2>
+		<p class="lower-opacity d-block-inline">
+			<small>
+				<i class="fa fa-folder-open"></i>
+				{{humanize .Section}}
+			</small>
+		</p>
             </header>
         </div>
 
@@ -28,7 +33,7 @@
             {{ end }}
         </div>
 
-        <div class="row">
+        <div class="row d-flex justify-content-end">
             <footer class="home-article-footer">
                 {{ partial "home/post-meta.html" . }}
             </footer>

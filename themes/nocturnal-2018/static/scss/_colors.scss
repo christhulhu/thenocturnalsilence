@@ -1,0 +1,52 @@
+$black : #131313;
+$true_black : #000;
+$white : #eff0f1;
+$grey : #292e32;
+$highlight_dark : #576f7d;
+$highlight_light: #77888d;
+
+html {
+	background-color: $black;
+}
+body.body {
+	color: $white;
+}
+a {
+	color: $highlight_dark !important;
+	&:hover {
+		color: $highlight_light !important;
+		text-decoration: underline;
+	}
+}
+
+.home-article {
+	background-color: rgba($true_black, 0.9);
+	background-blend-mode: saturation;
+	//border: solid 1px $black;
+	box-shadow: 5px 5px 15px 5px $true_black;
+}
+
+.home-article-footer {
+	opacity: 0.5;
+}
+
+.home-article-background-image{
+	background-size: cover;
+	background-color: rgba($true_black, 0.9);
+	background-blend-mode: saturation;
+}
+.review-header{
+	background-color: rgba($true_black, 0.9);
+}
+.background-image {
+	background-color: rgba($true_black, 0.9);
+}
+.home-background-image {
+	background-color: rgba($true_black, 0.7);
+}
+
+.interview {
+	em {
+		color: $highlight_light;
+	}
+}

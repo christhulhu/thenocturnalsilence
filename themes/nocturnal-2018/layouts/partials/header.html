@@ -32,10 +32,6 @@
         <link rel="stylesheet" href="{{ .Site.BaseURL }}css/nocturnal.css" />
 	</head>
 
-	<body class="body {{ if .IsHome }} home {{end}}
-    {{if isset .Params "image"}}
-        background-image" style="background-image: url({{ .Site.BaseURL }}images/{{.Params.image}});"
-    {{else}}
-        {{if isset .Site.Params "headerimage" }}home-background-image{{end}}" {{if isset .Site.Params "headerimage" }}style="background-image: url({{ .Site.BaseURL }}{{.Site.Params.headerimage}});"{{end}}
+	<body class="body {{ if .IsHome }} home {{end}} {{if isset .Params "image"}} background-image" style="background-image: url({{ .Site.BaseURL }}images/{{.Params.image}});" {{else}} {{if isset .Site.Params "headerimage" }}home-background-image{{end}}" {{if isset .Site.Params "headerimage" }}style="background-image: url({{ .Site.BaseURL }}{{.Site.Params.headerimage}});"{{end}}
     {{end}}
     itemscope itemtype="http://schema.org/WebPage">

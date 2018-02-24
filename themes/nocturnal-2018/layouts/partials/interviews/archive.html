@@ -1,23 +1,37 @@
-<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-    <div class="home-article">
-        <article>
-            <div class="text-center">
-                <a href="{{ .Permalink }}">
-                    <h3>{{ .Title }}</h3>
-                    {{if isset .Params "previewimage" }}
-                      <div class="post-image">
-                              <img src="{{ .Site.BaseURL }}images/{{.Params.previewimage}}"
-                              alt="{{ .Title }}"
-                              class="img-fluid mx-auto d-block"
-                              width="300"
-                              height="300">
-                      </div>
-                    {{end}}
-                </a>
-            </div>
-            <footer class="archive-article-footer text-center">
-                <time class="post-list" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">Published on {{ .Date.Format "2006-01-02" }}</time>
-            </footer>
-        </article>
-    </div>
+<div class="col-12">
+	<div class="home-article" style="background-image: url({{ .Site.BaseURL }}images/{{.Params.image}});">
+		<article>
+			<div class="d-flex justify-conent-start">
+				<div>
+					<a href="{{ .Permalink }}">
+						{{if isset .Params "previewimage" }}
+						<div class="post-image">
+							<img src="{{ .Site.BaseURL }}images/{{.Params.previewimage}}" alt="{{ .Title }}" class="img-fluid mx-auto d-block" width="300" height="300">
+						</div>
+						{{end}}
+					</a>
+				</div>
+				<div class="col">
+					<h3>
+						<a href="{{ .Permalink }}">
+							{{ .Title }}
+						</a>
+					</h3>
+					{{if isset .Params "genre" }}
+					<span class="small lower-opacity">
+						{{ range $index, $genre := .Params.genre }}
+						{{ if gt $index 0 }}<br/> {{ end }}
+						<i class="fa fa-tag"></i>
+						<a href="{{ "/genre/" | relURL }}{{ . | urlize }}">{{ . }}</a>
+						{{ end }}
+					</span>
+					{{end}}
+
+				</div>
+				<footer class="small lower-opacity">
+					<time class="post-list" datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">Published on {{ .Date.Format "2006-01-02" }}</time>
+				</footer>
+			</div>
+		</article>
+	</div>
 </div>
