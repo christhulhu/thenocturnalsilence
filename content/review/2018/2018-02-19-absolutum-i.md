@@ -8,10 +8,6 @@ artist = ["Absolutum"]
 genre = ["Black Metal"]
 label = ["The Crawling Chaos Records"]
 
-links = [
-    ""
-]
-
 player = "<iframe style=\"border: 0; width: 100%; height: 307px;\" src=\"https://bandcamp.com/EmbeddedPlayer/album=461012046/size=large/bgcol=333333/linkcol=ffffff/artwork=none/transparent=true/\" seamless><a href=\"http://thecrawlingchaosrecords.bandcamp.com/album/absolutum-ep\">ABSOLUTUM (EP) by ABSOLUTUM</a></iframe>"
 
 image = "cover/2018/absolutum-i.jpg"
