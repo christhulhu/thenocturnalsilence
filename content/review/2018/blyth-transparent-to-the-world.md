@@ -1,6 +1,6 @@
 +++
-title = "Blyth - Transparent to the World"
-slug = "blyth-transparent-to-the-world"
+title = "Blyh - Transparent to the World"
+slug = "blyh-transparent-to-the-world"
 date = "2018-03-10T09:53:42+01:00"
 
 category = ["Reviews"]
