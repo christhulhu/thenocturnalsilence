@@ -3,6 +3,10 @@ title = "Absolutum - I"
 slug = "2018-02-19-absolutum-i"
 date = "2018-02-19T22:38:36+01:00"
 
+links = [
+	"[absolutum.bandcamp.com](https://absolutum.bandcamp.com/)"
+]
+
 category = ["Reviews"]
 artist = ["Absolutum"]
 genre = ["Black Metal"]
