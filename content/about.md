@@ -10,6 +10,11 @@ TheNocturnalSilence.de is a webzine dedicated to dark, gloomy and atmospheric mu
 
 And with this said: All reviews are just my very own opinion. I write because I have an obsession with music. So to be honest: I will not answer any review requests. If I did the stuff you might send to me I will maybe write an review. Otherwise don't bother me with questions about a review or even interview.
 
+## Credits
+Since April 2018, the Logo of TheNocturnalSilence was created by [Tobias Lennartz](https://www.facebook.com/Toberich).
+
+All credits for used artworks and band pictures belongs to the bands, record companies, photographers. All was just used for promotional purpose.
+
 ## Technical Stuff
 This website was written and designed by [myself](https://christhulhu.de). It was build using
 
@@ -19,5 +24,5 @@ This website was written and designed by [myself](https://christhulhu.de). It wa
     * [Vanillabox](https://github.com/cocopon/vanillabox) for lightboxes
 * [FontAwesome](http://fontawesome.io) for fancy icons
 * [Piwik](https://piwik.org) for web-analytics
-* [Atom](https://atom.io) as powerfull text-editor
+* [Vim](https://www.vim.org) as powerfull text-editor
 * [Gitea](https://gitea.io/en-us/) for version-control
