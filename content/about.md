@@ -5,18 +5,25 @@ slug ="about"
 
 +++
 
+## Impress
+Contact: [void@thenocturnalsilence.de](mailto:void@thenocturnalsilence.de)
+
+## PR
+Don't send me any stuff. If I dig your music I will write about it.
+
+## Disclaimer // Privacy // GDPR
+I don't care about neither your privace nor your data. If you don't want embedded player, cookies or other stuff, keep the fuck off the internet!
+
 ## TheNocturnalSilence.de
-TheNocturnalSilence.de is a webzine dedicated to dark, gloomy and atmospheric music aside from any genre-limitations. But since this website represents my personal musical taste most reviews will deal about Death Metal, Black Metal, Doom, Post-Rock, Hardcore etc.
+I love beautiful melodies telling me terrible things. And I like terrible music making me feel comfortable. Finding beauty in the dissonance, for only a black heart will find beauty in darkness. 
+My site, my opinion. You do not have to like it. 
 
-And with this said: All reviews are just my very own opinion. I write because I have an obsession with music. So to be honest: I will not answer any review requests. If I did the stuff you might send to me I will maybe write an review. Otherwise don't bother me with questions about a review or even interview.
-
-## Credits
+## Credits // Copyright
 Since April 2018, the Logo of TheNocturnalSilence was created by [Tobias Lennartz](https://www.facebook.com/Toberich).
-
 All credits for used artworks and band pictures belongs to the bands, record companies, photographers. All was just used for promotional purpose.
 
 ## Technical Stuff
-This website was written and designed by [myself](https://christhulhu.de). It was build using
+This website was written and designed by [myself](https://christhulhu.de). It was build using much geek stuff like
 
 * [Hugo](https://gohugo.io) as static site generator / content managemnt system
 * [Bootstrap](https://getbootstrap.com) as CSS-Framework

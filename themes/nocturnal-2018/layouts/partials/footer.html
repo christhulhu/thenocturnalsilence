@@ -6,11 +6,13 @@
 				{{ with .Site.Copyright | safeHTML }}{{.}}{{ else }}&copy;
 				{{ now.Format "2006"}}. {{ .Site.Title }}{{end}}
 				</p>
-				{{ partial "footer/footermenu.html" .}}
 			</div>
 		</div>
 	</div>
 </footer>
+</div>
+</div><!-- coll-->
+</div><!--row-->
 </div><!-- main container -->
 
 {{ range .Site.Params.custom_css }}

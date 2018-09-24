@@ -46,12 +46,12 @@ post = "post/:year/:month/:day/:slug"
     url = "/category/interviews"
     weight = 20
 [[menu.head]]
-    name = "Browse"
+    name = "Archive"
     url = "/browse"
     weight = 30
 [[menu.head]]
-    name = "NecroSlaughter"
-    url = "https://necroslaughter.de"
+    name = "About"
+    url = "/about"
     weight = 40
 
 [[menu.footer]]

@@ -1,5 +1,5 @@
-<nav class="nav justify-content-between">
-	<ul class="nav justify-content-start">
+<nav class="navbar navbar-nav navbar-expand d-flex justify-content-between" >
+	<ul class="navbar-nav">
 		{{ $currentPage := . }}
 		{{ range .Site.Menus.head -}}
 		<li class="nav-item">
@@ -7,14 +7,17 @@
 		</li>
 		{{- end }}
 	</ul>
-
-	<ul class="nav justify-conent-end">
-		{{ range .Site.Menus.social -}}
-		<li class="nav-item">
-			<a class="nav-link" target="_blank" href="{{ .URL }}">
-				<i class="fa fa-{{ .Name }}" title="{{ .Name }}"></i>
-			</a>
+	<ul class="nav navbar-nav">
+		<li>
+			<ul class="nav ">
+				{{ range .Site.Menus.social -}}
+				<li class="nav-item">
+					<a class="nav-link" target="_blank" href="{{ .URL }}">
+						<i class="fa fa-{{ .Name }}" title="{{ .Name }}"></i>
+					</a>
+				</li>
+				{{ end }}
+			</ul>
 		</li>
-		{{ end }}
 	</ul>
 </nav>

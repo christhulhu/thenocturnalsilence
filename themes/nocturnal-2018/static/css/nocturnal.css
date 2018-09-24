@@ -120,38 +120,43 @@ a:hover {
 }
 
 /* line 1, ../scss/_style.scss */
+html, body, .main {
+  min-height: 100%;
+}
+
+/* line 5, ../scss/_style.scss */
 .nopadding {
   padding: 0 !important;
 }
 
-/* line 5, ../scss/_style.scss */
+/* line 9, ../scss/_style.scss */
 img.float-left {
   margin-right: 1.5em;
 }
 
-/* line 9, ../scss/_style.scss */
+/* line 13, ../scss/_style.scss */
 img.float-right {
   margin-left: 1.5em;
   margin-bottom: 1em;
 }
 
-/* line 13, ../scss/_style.scss */
+/* line 17, ../scss/_style.scss */
 img.d-block {
   margin-bottom: 1em;
 }
 
-/* line 17, ../scss/_style.scss */
+/* line 21, ../scss/_style.scss */
 .entry-content-meta iframe {
   max-width: 100%;
   margin-bottom: 1em;
 }
 
-/* line 21, ../scss/_style.scss */
+/* line 25, ../scss/_style.scss */
 .home-article {
   margin-bottom: 2em;
 }
 
-/* line 24, ../scss/_style.scss */
+/* line 28, ../scss/_style.scss */
 .home-article,
 .background-image,
 .home-background-image {
@@ -160,17 +165,17 @@ img.d-block {
   background-blend-mode: saturation;
 }
 
-/* line 34, ../scss/_style.scss */
+/* line 38, ../scss/_style.scss */
 .background-image, .home-background-image {
   background-attachment: fixed;
 }
 
-/* line 38, ../scss/_style.scss */
+/* line 42, ../scss/_style.scss */
 .home-article-background-image {
   background-position: center;
 }
 
-/* line 42, ../scss/_style.scss */
+/* line 46, ../scss/_style.scss */
 iframe.piwik-opt-out {
   border: 0;
   width: 100%;
@@ -179,52 +184,52 @@ iframe.piwik-opt-out {
   font-family: 'PT Sans' !important;
 }
 
-/* line 50, ../scss/_style.scss */
+/* line 54, ../scss/_style.scss */
 .lower-opacity {
   opacity: 0.5;
 }
 
-/* line 54, ../scss/_style.scss */
+/* line 58, ../scss/_style.scss */
 .interview, .review {
   background: rgba(19, 19, 19, 0.9);
   box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.5);
   padding-top: 1em;
 }
 
-/* line 60, ../scss/_style.scss */
+/* line 64, ../scss/_style.scss */
 .no-shadow {
   box-shadow: none !important;
 }
 
-/* line 64, ../scss/_style.scss */
+/* line 68, ../scss/_style.scss */
 .browse-wrapper {
   background: rgba(19, 19, 19, 0.5);
   box-shadow: 5px 5px 20px 10px rgba(0, 0, 0, 0.5);
   padding: 1em;
 }
 
-/* line 72, ../scss/_style.scss */
+/* line 76, ../scss/_style.scss */
 .interview p > em {
   font-weight: 600;
   text-indent: 1em;
   display: block;
   text-align: justify;
 }
-/* line 80, ../scss/_style.scss */
+/* line 84, ../scss/_style.scss */
 .interview img {
   box-shadow: 5px 5px 10px 2px #000;
 }
-/* line 85, ../scss/_style.scss */
+/* line 89, ../scss/_style.scss */
 .interview .entry-content > img:nth-of-type(1) {
   box-shadow: none !important;
 }
 
-/* line 91, ../scss/_style.scss */
+/* line 95, ../scss/_style.scss */
 .hide-on-mobile {
   visibility: hidden;
 }
 
-/* line 95, ../scss/_style.scss */
+/* line 99, ../scss/_style.scss */
 hr {
   border-top: 5px double #292e32 !important;
 }

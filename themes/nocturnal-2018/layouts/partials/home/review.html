@@ -1,16 +1,16 @@
 <div class="container home-article {{if isset .Params "image" }}home-article-background-image{{end}}" {{if isset .Params "image" }}style="background-image: url({{ .Site.BaseURL }}images/{{ .Params.image }});"{{end}}>
 	<article >
 		<div class="row">
-			<header class="article-header d-flex justify-content-between">
-				<h2 class="d-block-inline">
-					<a href="{{ .Permalink }}" class="transition" rel="bookmark" title="{{ .Title }}"> {{ .Title }}</a>
-				</h2>
-				<p class="lower-opacity d-block-inline hide-on-mobile">
+			<header class="article-header ">
+				<span class="lower-opacity d-block">
 					<small>
 						<i class="fa fa-folder-open"></i>
 						{{humanize .Section}}
 					</small>
-				</p>
+				</span>
+				<h2 class="d-block-inline">
+					<a href="{{ .Permalink }}" class="transition" rel="bookmark" title="{{ .Title }}"> {{ .Title }}</a>
+				</h2>
 			</header>
 		</div>
 
